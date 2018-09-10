@@ -20,14 +20,17 @@ namespace MacMon.Commands
             }
         }
 
-        public static bool Stop(string path)
+        public static bool Stop(string process)
         {
-            var p = new Process();
 
             try
             {
-                p.StartInfo.FileName = path;
-                p.Kill();
+                var appsByName = Process.GetProcessesByName(process);
+                foreach (var app in appsByName)
+                {
+                    app.Kill();
+                }
+
                 return true;
             }
             catch (Exception)

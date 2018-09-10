@@ -2,7 +2,7 @@ using Topshelf;
 
 namespace MacMon
 {
-    internal static class ConfigureMaMo
+    internal static class ConfigureMacMon
     {
         internal static void Configure()
         {
@@ -22,6 +22,8 @@ namespace MacMon
                 configure.SetServiceName("MacMon");  
                 configure.SetDisplayName("Machine Monitor");  
                 configure.SetDescription("Service to monitor this machine.");
+
+                configure.StartAutomatically();
 
                 configure.Disabled();
             });  

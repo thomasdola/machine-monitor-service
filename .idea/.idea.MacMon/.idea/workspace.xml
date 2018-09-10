@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd780d56-ea5c-4fc3-87bd-611539638ddd" name="Default Changelist" comment="" />
+    <list default="true" id="dd780d56-ea5c-4fc3-87bd-611539638ddd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MacMon/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MacMon/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MacMon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MacMon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/App.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/App.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/Commands/Application.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Commands/Application.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/Commands/Executor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Commands/Executor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/ConfigureMaMo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/ConfigureMacMon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/Jobs/Executor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Jobs/Executor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/Jobs/UserActivitiesMonitor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/MacMon.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/MacMon.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/Models/Process.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Models/Process.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/MacMon.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/MacMon.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/MacMon.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/MacMon.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/database.json" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/database.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/packages.config" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,27 +71,32 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="1" />
+          <entry key="cs" value="18" />
+          <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="1" />
+          <entry key="C#" value="18" />
+          <entry key="JSON" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="5" />
+          <entry key="cs" value="3662" />
+          <entry key="json" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="5" />
+          <entry key="C#" value="3662" />
+          <entry key="JSON" value="53" />
         </counts>
       </usages-collector>
     </session>
@@ -77,48 +106,40 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MacMon/App.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="114">
+              <caret line="130" column="9" lean-forward="true" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
               <folding>
-                <marker date="1536586096274" expanded="true" signature="6:219" ph="..." />
-                <marker date="1536586096274" expanded="true" signature="237:4685" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="260:4511" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="535:671" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="700:3111" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="1232:1795" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="1397:1659" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="1695:1781" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="1812:2319" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="1902:2167" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="2202:2288" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="2587:2657" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="3139:3423" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="3498:3838" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="3893:4179" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="4243:4505" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="4376:4463" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="4555:4683" ph="{...}" />
-                <marker date="1536586096274" expanded="true" signature="4608:4677" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MacMon/Services/Http/MacMonApi.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-              <folding>
-                <marker date="1536479138000" expanded="false" signature="6:51" ph="..." />
-                <marker date="1536479138000" expanded="true" signature="83:2150" ph="{...}" />
-                <marker date="1536479138000" expanded="true" signature="117:315" ph="{...}" />
-                <marker date="1536479138000" expanded="true" signature="360:2148" ph="{...}" />
-                <marker date="1536479138000" expanded="true" signature="508:965" ph="{...}" />
-                <marker date="1536479138000" expanded="true" signature="1033:1303" ph="{...}" />
-                <marker date="1536479138000" expanded="true" signature="1374:1641" ph="{...}" />
-                <marker date="1536479138000" expanded="true" signature="1677:1874" ph="{...}" />
-                <marker date="1536479138000" expanded="true" signature="1913:2142" ph="{...}" />
+                <marker date="1536621588948" expanded="false" signature="6:353" ph="..." />
+                <marker date="1536621588948" expanded="true" signature="371:6021" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="394:5508" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="669:805" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="834:1451" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="904:1044" ph="/* Init dataStore with default data ... */" />
+                <marker date="1536621588948" expanded="true" signature="1061:1343" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="1121:1239" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="1260:1329" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="1375:1441" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="1480:2699" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="1778:2047" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="2064:2342" ph="{...}" />
+                <marker date="1536621588948" expanded="false" signature="2740:3031" ph="{...}" />
+                <marker date="1536621588948" expanded="false" signature="3146:3419" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="3187:3306" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="3323:3409" ph="{...}" />
+                <marker date="1536621588948" expanded="false" signature="3447:3816" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="3545:3779" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="3640:3715" ph="/* _channel.Leave(); ... */" />
+                <marker date="1536621588948" expanded="false" signature="3901:4430" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="4032:4093" ph="{...}" />
+                <marker date="1536621588948" expanded="false" signature="4512:4852" ph="{...}" />
+                <marker date="1536621588948" expanded="false" signature="4914:5200" ph="{...}" />
+                <marker date="1536621588948" expanded="false" signature="5264:5502" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="5373:5460" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="5552:5680" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="5605:5674" ph="{...}" />
+                <marker date="1536621588948" expanded="false" signature="5709:6019" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="5762:5866" ph="{...}" />
+                <marker date="1536621588948" expanded="true" signature="5910:6013" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -127,53 +148,121 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MacMon/Commands/Executor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+            <state relative-caret-position="459">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <marker date="1536621956494" expanded="false" signature="6:83" ph="..." />
+                <marker date="1536621956494" expanded="true" signature="110:2358" ph="{...}" />
+                <marker date="1536621956494" expanded="true" signature="138:2356" ph="{...}" />
+                <marker date="1536621956494" expanded="true" signature="605:657" ph="{...}" />
+                <marker date="1536621956494" expanded="true" signature="711:830" ph="{...}" />
+                <marker date="1536621956494" expanded="true" signature="859:1611" ph="{...}" />
+                <marker date="1536621956494" expanded="true" signature="1663:1720" ph="{...}" />
+                <marker date="1536621956494" expanded="true" signature="1771:1827" ph="{...}" />
+                <marker date="1536621956494" expanded="true" signature="1875:1928" ph="{...}" />
+                <marker date="1536621956494" expanded="true" signature="1975:2027" ph="{...}" />
+                <marker date="1536621956494" expanded="true" signature="2061:2106" ph="{...}" />
+                <marker date="1536621956494" expanded="true" signature="2147:2196" ph="{...}" />
+                <marker date="1536621956494" expanded="true" signature="2251:2350" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MacMon/Models/Identity.cs">
+        <entry file="file://$PROJECT_DIR$/MacMon/Jobs/Scheduler/Quartz.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="378">
+              <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+              <folding>
+                <marker date="1536620866344" expanded="true" signature="6:70" ph="..." />
+                <marker date="1536620866344" expanded="true" signature="103:636" ph="{...}" />
+                <marker date="1536620866344" expanded="true" signature="136:634" ph="{...}" />
+                <marker date="1536620866344" expanded="true" signature="215:628" ph="{...}" />
+                <marker date="1536620866344" expanded="true" signature="302:372" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MacMon/Models/Profile.cs">
+        <entry file="file://$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="168">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding>
+                <marker date="1536621956434" expanded="true" signature="6:127" ph="..." />
+                <marker date="1536621956434" expanded="true" signature="150:1484" ph="{...}" />
+                <marker date="1536621956434" expanded="true" signature="196:1482" ph="{...}" />
+                <marker date="1536621956434" expanded="true" signature="270:981" ph="{...}" />
+                <marker date="1536621956434" expanded="true" signature="414:971" ph="{...}" />
+                <marker date="1536621956434" expanded="true" signature="618:777" ph="{...}" />
+                <marker date="1536621956434" expanded="true" signature="816:957" ph="{...}" />
+                <marker date="1536621956434" expanded="true" signature="1054:1476" ph="{...}" />
+                <marker date="1536621956434" expanded="true" signature="1393:1466" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MacMon/Commands/Account.cs">
+        <entry file="file://$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+            <state relative-caret-position="297">
+              <caret line="14" column="64" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="64" />
+              <folding>
+                <marker date="1536593904702" expanded="false" signature="6:107" ph="..." />
+                <marker date="1536593904702" expanded="true" signature="144:1535" ph="{...}" />
+                <marker date="1536593904702" expanded="true" signature="248:1533" ph="{...}" />
+                <marker date="1536593904702" expanded="true" signature="777:1138" ph="{...}" />
+                <marker date="1536593904702" expanded="true" signature="921:979" ph="{...}" />
+                <marker date="1536593904702" expanded="true" signature="1011:1128" ph="{...}" />
+                <marker date="1536593904702" expanded="true" signature="1196:1320" ph="{...}" />
+                <marker date="1536593904702" expanded="true" signature="1359:1527" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MacMon/Commands/Power.cs">
+        <entry file="file://$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="411">
+              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+              <folding>
+                <marker date="1536621956520" expanded="true" signature="6:169" ph="..." />
+                <marker date="1536621956520" expanded="true" signature="192:2242" ph="{...}" />
+                <marker date="1536621956520" expanded="true" signature="234:2240" ph="{...}" />
+                <marker date="1536621956520" expanded="true" signature="291:2044" ph="{...}" />
+                <marker date="1536621956520" expanded="true" signature="418:2034" ph="{...}" />
+                <marker date="1536621956520" expanded="true" signature="643:1383" ph="{...}" />
+                <marker date="1536621956520" expanded="true" signature="1446:1846" ph="{...}" />
+                <marker date="1536621956520" expanded="true" signature="1621:1828" ph="{...}" />
+                <marker date="1536621956520" expanded="true" signature="1883:2020" ph="{...}" />
+                <marker date="1536621956520" expanded="true" signature="2109:2234" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MacMon/Commands/Service.cs">
+        <entry file="file://$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="1302">
+              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+              <folding>
+                <marker date="1536621956473" expanded="true" signature="6:175" ph="..." />
+                <marker date="1536621956473" expanded="true" signature="198:1765" ph="{...}" />
+                <marker date="1536621956473" expanded="true" signature="240:1763" ph="{...}" />
+                <marker date="1536621956473" expanded="true" signature="314:1100" ph="{...}" />
+                <marker date="1536621956473" expanded="true" signature="574:631" ph="{...}" />
+                <marker date="1536621956473" expanded="true" signature="650:707" ph="{...}" />
+                <marker date="1536621956473" expanded="true" signature="795:930" ph="{...}" />
+                <marker date="1536621956473" expanded="true" signature="965:1090" ph="{...}" />
+                <marker date="1536621956473" expanded="true" signature="1166:1298" ph="{...}" />
+                <marker date="1536621956473" expanded="true" signature="1363:1757" ph="{...}" />
+                <marker date="1536621956473" expanded="true" signature="1678:1747" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,8 +270,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MacMon/Commands/Application.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="546">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+              <folding>
+                <marker date="1536622014758" expanded="true" signature="6:39" ph="..." />
+                <marker date="1536622014758" expanded="true" signature="66:842" ph="{...}" />
+                <marker date="1536622014758" expanded="true" signature="97:840" ph="{...}" />
+                <marker date="1536622014758" expanded="true" signature="149:416" ph="{...}" />
+                <marker date="1536622014758" expanded="true" signature="211:318" ph="{...}" />
+                <marker date="1536622014758" expanded="true" signature="348:406" ph="{...}" />
+                <marker date="1536622014758" expanded="true" signature="465:834" ph="{...}" />
+                <marker date="1536622014758" expanded="true" signature="492:736" ph="{...}" />
+                <marker date="1536622014758" expanded="true" signature="624:692" ph="{...}" />
+                <marker date="1536622014758" expanded="true" signature="766:824" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,8 +291,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MacMon/Jobs/Executor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+            <state relative-caret-position="230">
+              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+              <folding>
+                <marker date="1536621301367" expanded="true" signature="6:91" ph="..." />
+                <marker date="1536621301367" expanded="true" signature="114:2605" ph="{...}" />
+                <marker date="1536621301367" expanded="true" signature="142:2603" ph="{...}" />
+                <marker date="1536621301367" expanded="true" signature="234:286" ph="{...}" />
+                <marker date="1536621301367" expanded="true" signature="340:402" ph="{...}" />
+                <marker date="1536621301367" expanded="true" signature="438:2597" ph="{...}" />
+                <marker date="1536621301367" expanded="false" signature="589:1165" ph="{...}" />
+                <marker date="1536621301367" expanded="false" signature="1222:1896" ph="{...}" />
+                <marker date="1536621301367" expanded="false" signature="1949:2587" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MacMon/bin/Debug/database.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -203,7 +324,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MacMon/Jobs/UserActivitiesMonitor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Jobs/Executor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -215,7 +335,7 @@
     <setting file="file://$PROJECT_DIR$/MacMon/Models/Profile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Models/LogOut.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Commands/Application.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MacMon/ConfigureMaMo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MacMon/ConfigureMacMon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Commands/Executor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Commands/Service.cs" root0="FORCE_HIGHLIGHTING" />
@@ -228,11 +348,12 @@
     <setting file="file://$PROJECT_DIR$/MacMon/Services/WebSocket/WebsocketSharpFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Services/WebSocket/WebsocketSharpAdapter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MacMon/Network/Monitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MacMon/Jobs/Scheduler/Quartz.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MacMon/Models/Process.cs" />
         <option value="$PROJECT_DIR$/MacMon/Models/JWT.cs" />
         <option value="$PROJECT_DIR$/MacMon/Models/Identity.cs" />
         <option value="$PROJECT_DIR$/MacMon/Services/Http/MaMoApi.cs" />
@@ -240,27 +361,33 @@
         <option value="$PROJECT_DIR$/MacMon/Services/WebSocket/MaMoWebSocket.cs" />
         <option value="$PROJECT_DIR$/MacMon/Services/WebSocket/WebsocketSharpAdapter.cs" />
         <option value="$PROJECT_DIR$/MacMon/Program.cs" />
-        <option value="$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs" />
-        <option value="$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs" />
-        <option value="$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs" />
         <option value="$PROJECT_DIR$/MacMon/Jobs/UserActivitiesMonitor.cs" />
         <option value="$PROJECT_DIR$/MacMon/ConfigureMaMo.cs" />
         <option value="$PROJECT_DIR$/MacMon/Models/LogOut.cs" />
         <option value="$PROJECT_DIR$/MacMon/Models/Credential.cs" />
         <option value="$PROJECT_DIR$/MacMon/Models/Job.cs" />
-        <option value="$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs" />
         <option value="$PROJECT_DIR$/MacMon/Services/Http/MacMonApi.cs" />
-        <option value="$PROJECT_DIR$/MacMon/Jobs/Executor.cs" />
         <option value="$PROJECT_DIR$/MacMon/Commands/Password.cs" />
         <option value="$PROJECT_DIR$/MacMon/Commands/Process.cs" />
-        <option value="$PROJECT_DIR$/MacMon/Commands/Application.cs" />
         <option value="$PROJECT_DIR$/MacMon/Commands/Power.cs" />
         <option value="$PROJECT_DIR$/MacMon/Commands/Service.cs" />
         <option value="$PROJECT_DIR$/MacMon/Commands/Account.cs" />
         <option value="$PROJECT_DIR$/MacMon/Models/Profile.cs" />
-        <option value="$PROJECT_DIR$/MacMon/Commands/Executor.cs" />
         <option value="$PROJECT_DIR$/MacMon/Database/Store.cs" />
+        <option value="$PROJECT_DIR$/MacMon/Network/Monitor.cs" />
+        <option value="$PROJECT_DIR$/MacMon/ConfigureMacMon.cs" />
+        <option value="$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs" />
+        <option value="$PROJECT_DIR$/MacMon/Models/Process.cs" />
+        <option value="$PROJECT_DIR$/MacMon/Jobs/Watcher/Quartz.cs" />
+        <option value="$PROJECT_DIR$/MacMon/Jobs/Scheduler/Quartz.cs" />
+        <option value="$PROJECT_DIR$/MacMon/bin/Debug/database.json" />
+        <option value="$PROJECT_DIR$/MacMon/Jobs/Executor.cs" />
         <option value="$PROJECT_DIR$/MacMon/App.cs" />
+        <option value="$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs" />
+        <option value="$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs" />
+        <option value="$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs" />
+        <option value="$PROJECT_DIR$/MacMon/Commands/Executor.cs" />
+        <option value="$PROJECT_DIR$/MacMon/Commands/Application.cs" />
       </list>
     </option>
   </component>
@@ -281,77 +408,10 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <autoscrollFromSource FileSystemExplorer="true" />
+      <autoscrollFromSource SolutionExplorer="true" FileSystemExplorer="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="bin" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="bin" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Debug" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Database" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Jobs" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Models" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Services" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Services" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Http" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Services" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="WebSocket" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -364,10 +424,44 @@
               <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Commands" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Jobs" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="macmon" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="macmon" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="macmon" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="MacMon" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Jobs" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
       </pane>
     </panes>
   </component>
@@ -424,11 +518,12 @@
       <workItem from="1536425567838" duration="35812000" />
       <workItem from="1536584775424" duration="116000" />
       <workItem from="1536584929021" duration="1138000" />
+      <workItem from="1536586615071" duration="30890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37066000" />
+    <option name="totallyTimeSpent" value="67956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,8 +536,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17377399" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -452,14 +548,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3293348" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3286334" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.3293348" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.3293348" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,55 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Models/Process.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/UserActivitiesMonitor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/ConfigureMaMo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -585,90 +632,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/bin/Debug/database.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Database/Store.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Commands/Executor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Models/Identity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Models/Profile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Commands/Account.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Commands/Power.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Commands/Service.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Commands/Application.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/Executor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MacMon/Services/Http/MacMonApi.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="675">
           <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
             <marker date="1536479138000" expanded="false" signature="6:51" ph="..." />
-            <marker date="1536479138000" expanded="true" signature="83:2150" ph="{...}" />
             <marker date="1536479138000" expanded="true" signature="117:315" ph="{...}" />
             <marker date="1536479138000" expanded="true" signature="360:2148" ph="{...}" />
             <marker date="1536479138000" expanded="true" signature="508:965" ph="{...}" />
@@ -680,30 +649,327 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Models/Identity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Models/Profile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Commands/Account.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Commands/Power.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/ConfigureMacMon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <marker date="1536589142190" expanded="true" signature="33:996" ph="{...}" />
+            <marker date="1536589142190" expanded="true" signature="77:994" ph="{...}" />
+            <marker date="1536589142190" expanded="true" signature="124:988" ph="{...}" />
+            <marker date="1536589142190" expanded="true" signature="177:974" ph="{...}" />
+            <marker date="1536589142190" expanded="true" signature="249:466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <marker date="1536589142627" expanded="true" signature="16:167" ph="{...}" />
+            <marker date="1536589142627" expanded="true" signature="45:165" ph="{...}" />
+            <marker date="1536589142627" expanded="true" signature="98:159" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Database/Store.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding>
+            <marker date="1536479138000" expanded="false" signature="6:139" ph="..." />
+            <marker date="1536479138000" expanded="true" signature="166:2971" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="191:2969" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="482:788" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="841:1043" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="1102:1797" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="1191:1276" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="1317:1787" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="1454:1701" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="1849:2307" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="1939:2026" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="2067:2297" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="2362:2963" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="2447:2524" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="2565:2953" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="2690:2875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/UserActivitiesMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Models/Process.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <marker date="1536603009896" expanded="true" signature="23:146" ph="{...}" />
+            <marker date="1536603009896" expanded="true" signature="50:144" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Network/Monitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <marker date="1536588192250" expanded="true" signature="6:70" ph="..." />
+            <marker date="1536588192250" expanded="true" signature="96:871" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="133:267" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="180:261" ph="{...}" />
+            <marker date="1536588192250" expanded="false" signature="297:869" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="464:518" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="606:669" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="699:863" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="756:853" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Commands/Service.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <marker date="1536479138000" expanded="false" signature="6:47" ph="..." />
+            <marker date="1536479138000" expanded="true" signature="74:1316" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="101:1314" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="153:544" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="590:966" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="1020:1110" ph="{...}" />
+            <marker date="1536479138000" expanded="true" signature="1176:1308" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="64" />
+          <folding>
+            <marker date="1536593904702" expanded="false" signature="6:107" ph="..." />
+            <marker date="1536593904702" expanded="true" signature="144:1535" ph="{...}" />
+            <marker date="1536593904702" expanded="true" signature="248:1533" ph="{...}" />
+            <marker date="1536593904702" expanded="true" signature="777:1138" ph="{...}" />
+            <marker date="1536593904702" expanded="true" signature="921:979" ph="{...}" />
+            <marker date="1536593904702" expanded="true" signature="1011:1128" ph="{...}" />
+            <marker date="1536593904702" expanded="true" signature="1196:1320" ph="{...}" />
+            <marker date="1536593904702" expanded="true" signature="1359:1527" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/bin/Debug/database.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/Executor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding>
+            <marker date="1536621301367" expanded="true" signature="6:91" ph="..." />
+            <marker date="1536621301367" expanded="true" signature="114:2605" ph="{...}" />
+            <marker date="1536621301367" expanded="true" signature="142:2603" ph="{...}" />
+            <marker date="1536621301367" expanded="true" signature="234:286" ph="{...}" />
+            <marker date="1536621301367" expanded="true" signature="340:402" ph="{...}" />
+            <marker date="1536621301367" expanded="true" signature="438:2597" ph="{...}" />
+            <marker date="1536621301367" expanded="false" signature="589:1165" ph="{...}" />
+            <marker date="1536621301367" expanded="false" signature="1222:1896" ph="{...}" />
+            <marker date="1536621301367" expanded="false" signature="1949:2587" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1302">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding>
+            <marker date="1536621956473" expanded="true" signature="6:175" ph="..." />
+            <marker date="1536621956473" expanded="true" signature="198:1765" ph="{...}" />
+            <marker date="1536621956473" expanded="true" signature="240:1763" ph="{...}" />
+            <marker date="1536621956473" expanded="true" signature="314:1100" ph="{...}" />
+            <marker date="1536621956473" expanded="true" signature="574:631" ph="{...}" />
+            <marker date="1536621956473" expanded="true" signature="650:707" ph="{...}" />
+            <marker date="1536621956473" expanded="true" signature="795:930" ph="{...}" />
+            <marker date="1536621956473" expanded="true" signature="965:1090" ph="{...}" />
+            <marker date="1536621956473" expanded="true" signature="1166:1298" ph="{...}" />
+            <marker date="1536621956473" expanded="true" signature="1363:1757" ph="{...}" />
+            <marker date="1536621956473" expanded="true" signature="1678:1747" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/Scheduler/Quartz.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+          <folding>
+            <marker date="1536620866344" expanded="true" signature="6:70" ph="..." />
+            <marker date="1536620866344" expanded="true" signature="103:636" ph="{...}" />
+            <marker date="1536620866344" expanded="true" signature="136:634" ph="{...}" />
+            <marker date="1536620866344" expanded="true" signature="215:628" ph="{...}" />
+            <marker date="1536620866344" expanded="true" signature="302:372" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding>
+            <marker date="1536621956520" expanded="true" signature="6:169" ph="..." />
+            <marker date="1536621956520" expanded="true" signature="192:2242" ph="{...}" />
+            <marker date="1536621956520" expanded="true" signature="234:2240" ph="{...}" />
+            <marker date="1536621956520" expanded="true" signature="291:2044" ph="{...}" />
+            <marker date="1536621956520" expanded="true" signature="418:2034" ph="{...}" />
+            <marker date="1536621956520" expanded="true" signature="643:1383" ph="{...}" />
+            <marker date="1536621956520" expanded="true" signature="1446:1846" ph="{...}" />
+            <marker date="1536621956520" expanded="true" signature="1621:1828" ph="{...}" />
+            <marker date="1536621956520" expanded="true" signature="1883:2020" ph="{...}" />
+            <marker date="1536621956520" expanded="true" signature="2109:2234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <marker date="1536621956434" expanded="true" signature="6:127" ph="..." />
+            <marker date="1536621956434" expanded="true" signature="150:1484" ph="{...}" />
+            <marker date="1536621956434" expanded="true" signature="196:1482" ph="{...}" />
+            <marker date="1536621956434" expanded="true" signature="270:981" ph="{...}" />
+            <marker date="1536621956434" expanded="true" signature="414:971" ph="{...}" />
+            <marker date="1536621956434" expanded="true" signature="618:777" ph="{...}" />
+            <marker date="1536621956434" expanded="true" signature="816:957" ph="{...}" />
+            <marker date="1536621956434" expanded="true" signature="1054:1476" ph="{...}" />
+            <marker date="1536621956434" expanded="true" signature="1393:1466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Commands/Executor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <marker date="1536621956494" expanded="false" signature="6:83" ph="..." />
+            <marker date="1536621956494" expanded="true" signature="110:2358" ph="{...}" />
+            <marker date="1536621956494" expanded="true" signature="138:2356" ph="{...}" />
+            <marker date="1536621956494" expanded="true" signature="605:657" ph="{...}" />
+            <marker date="1536621956494" expanded="true" signature="711:830" ph="{...}" />
+            <marker date="1536621956494" expanded="true" signature="859:1611" ph="{...}" />
+            <marker date="1536621956494" expanded="true" signature="1663:1720" ph="{...}" />
+            <marker date="1536621956494" expanded="true" signature="1771:1827" ph="{...}" />
+            <marker date="1536621956494" expanded="true" signature="1875:1928" ph="{...}" />
+            <marker date="1536621956494" expanded="true" signature="1975:2027" ph="{...}" />
+            <marker date="1536621956494" expanded="true" signature="2061:2106" ph="{...}" />
+            <marker date="1536621956494" expanded="true" signature="2147:2196" ph="{...}" />
+            <marker date="1536621956494" expanded="true" signature="2251:2350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Commands/Application.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <marker date="1536622014758" expanded="true" signature="6:39" ph="..." />
+            <marker date="1536622014758" expanded="true" signature="66:842" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="97:840" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="149:416" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="211:318" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="348:406" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="465:834" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="492:736" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="624:692" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="766:824" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MacMon/App.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="114">
+          <caret line="130" column="9" lean-forward="true" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
           <folding>
-            <marker date="1536586096274" expanded="true" signature="6:219" ph="..." />
-            <marker date="1536586096274" expanded="true" signature="237:4685" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="260:4511" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="535:671" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="700:3111" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="1232:1795" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="1397:1659" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="1695:1781" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="1812:2319" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="1902:2167" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="2202:2288" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="2587:2657" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="3139:3423" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="3498:3838" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="3893:4179" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="4243:4505" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="4376:4463" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="4555:4683" ph="{...}" />
-            <marker date="1536586096274" expanded="true" signature="4608:4677" ph="{...}" />
+            <marker date="1536621588948" expanded="false" signature="6:353" ph="..." />
+            <marker date="1536621588948" expanded="true" signature="371:6021" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="394:5508" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="669:805" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="834:1451" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="904:1044" ph="/* Init dataStore with default data ... */" />
+            <marker date="1536621588948" expanded="true" signature="1061:1343" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="1121:1239" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="1260:1329" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="1375:1441" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="1480:2699" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="1778:2047" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="2064:2342" ph="{...}" />
+            <marker date="1536621588948" expanded="false" signature="2740:3031" ph="{...}" />
+            <marker date="1536621588948" expanded="false" signature="3146:3419" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="3187:3306" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="3323:3409" ph="{...}" />
+            <marker date="1536621588948" expanded="false" signature="3447:3816" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="3545:3779" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="3640:3715" ph="/* _channel.Leave(); ... */" />
+            <marker date="1536621588948" expanded="false" signature="3901:4430" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="4032:4093" ph="{...}" />
+            <marker date="1536621588948" expanded="false" signature="4512:4852" ph="{...}" />
+            <marker date="1536621588948" expanded="false" signature="4914:5200" ph="{...}" />
+            <marker date="1536621588948" expanded="false" signature="5264:5502" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="5373:5460" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="5552:5680" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="5605:5674" ph="{...}" />
+            <marker date="1536621588948" expanded="false" signature="5709:6019" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="5762:5866" ph="{...}" />
+            <marker date="1536621588948" expanded="true" signature="5910:6013" ph="{...}" />
           </folding>
         </state>
       </provider>

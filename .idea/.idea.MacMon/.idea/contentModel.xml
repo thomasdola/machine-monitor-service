@@ -14,7 +14,7 @@
           <e p="Power.cs" t="Include" />
           <e p="Service.cs" t="Include" />
         </e>
-        <e p="ConfigureMaMo.cs" t="Include" />
+        <e p="ConfigureMacMon.cs" t="Include" />
         <e p="Database" t="Include">
           <e p="Store.cs" t="Include" />
         </e>
@@ -22,8 +22,10 @@
           <e p="ApplicationsMonitor.cs" t="Include" />
           <e p="Executor.cs" t="Include" />
           <e p="NetworkMonitor.cs" t="Include" />
+          <e p="Scheduler" t="Include">
+            <e p="Quartz.cs" t="Include" />
+          </e>
           <e p="ServicesMonitor.cs" t="Include" />
-          <e p="UserActivitiesMonitor.cs" t="Include" />
         </e>
         <e p="MacMon.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
@@ -34,6 +36,9 @@
           <e p="LogOut.cs" t="Include" />
           <e p="Process.cs" t="Include" />
           <e p="Profile.cs" t="Include" />
+        </e>
+        <e p="Network" t="Include">
+          <e p="Monitor.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />

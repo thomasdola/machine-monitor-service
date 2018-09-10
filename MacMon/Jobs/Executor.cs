@@ -1,62 +1,72 @@
 using System;
-using System.Collections.Generic;
 using Castle.Core.Internal;
-using JsonFlatFileDataStore;
 using MacMon.Models;
 using Phoenix;
+using Quartz;
 
 namespace MacMon.Jobs
 {
     public class Executor
     {
         private readonly Channel _channel;
-        private readonly DataStore _store;
-        private readonly Identity _identity;
 
-        private Executor(Channel channel, DataStore store, Identity identity)
+        private Executor(Channel channel)
         {
             _channel = channel;
-            _store = store;
-            _identity = identity;
         }
 
-        public static Executor Init(Channel channel, DataStore store, Identity identity)
+        public static Executor Init(Channel channel)
         {
-            //socket = JoinSocketChannel(socket, identity);
-            return new Executor(channel, store, identity);
+            return new Executor(channel);
         }
 
         public void Start(Job job)
         {
-            Console.WriteLine("Jobs Running with -> {0} - {1}", _identity.Uuid, _identity.Jwt.Token);
-            Console.WriteLine("Jobs Running..., {0} - {1}", job.Network, job.UserActivity);
-            
+            Console.WriteLine("job | apps -> {} | services -> {}", job.Applications.Count, job.Services.Count);
             if (job.Network)
             {
-                var data = new Dictionary<string, object>{{ "IP", "12.12.12.35"}};
-                _channel.Push(Services.WebSocket.MacMonWebSocket.NETWORK_STATUS_CHANGED, data);
-                Console.WriteLine("Network Job Running...");   
+                var trigger = TriggerBuilder.Create().WithIdentity("Network Trigger", "Triggers").StartNow()
+                    .WithSimpleSchedule(s => s
+                        .WithIntervalInSeconds(5)
+                        .RepeatForever())
+                    .Build();
+                
+                var networkJob = JobBuilder.Create<NetworkMonitor>().WithIdentity("Network Job", "Jobs").Build();
+                
+                networkJob.JobDataMap["channel"] = _channel;
+                Scheduler.Quartz.Start(networkJob, trigger);
             }
 
-            if (job.UserActivity)
+            else if (!job.Applications.IsNullOrEmpty())
             {
-                Console.WriteLine("UserActivityLog Job Running...");
+                var trigger = TriggerBuilder.Create().WithIdentity("Applications Trigger", "Triggers").StartNow()
+                    .WithSimpleSchedule(s => s
+                        .WithIntervalInSeconds(5)
+                        .RepeatForever())
+                    .Build();
+
+                var applicationsJob = JobBuilder.Create<ApplicationsMonitor>().WithIdentity("Applications Job", "Jobs")
+                    .Build();
+
+                applicationsJob.JobDataMap["channel"] = _channel;
+                applicationsJob.JobDataMap["applications"] = job.Applications;
+                Scheduler.Quartz.Start(applicationsJob, trigger);
             }
 
-            if (!job.Applications.IsNullOrEmpty())
+            else if (!job.Services.IsNullOrEmpty())
             {
-                foreach (var application in job.Applications)
-                {
-                    Console.WriteLine("Application {0} Job Running...", application);
-                }   
-            }
+                var trigger = TriggerBuilder.Create().WithIdentity("Services Trigger", "Triggers").StartNow()
+                    .WithSimpleSchedule(s => s
+                        .WithIntervalInSeconds(5)
+                        .RepeatForever())
+                    .Build();
 
-            if (!job.Services.IsNullOrEmpty())
-            {
-                foreach (var service in job.Services)
-                {
-                    Console.WriteLine("Service {0} Job Running...", service);
-                }
+                var servicesJob = JobBuilder.Create<ServicesMonitor>().WithIdentity("Services Job", "Jobs")
+                    .Build();
+
+                servicesJob.JobDataMap["channel"] = _channel;
+                servicesJob.JobDataMap["services"] = job.Services;
+                Scheduler.Quartz.Start(servicesJob, trigger);
             }
         }
     }

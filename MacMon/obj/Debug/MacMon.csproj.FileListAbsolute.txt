@@ -22,3 +22,6 @@ C:\Users\Guru\Documents\Visual Studio 2015\Projects\macmon\MacMon\bin\Debug\Syst
 C:\Users\Guru\Documents\Visual Studio 2015\Projects\macmon\MacMon\bin\Debug\System.ValueTuple.xml
 C:\Users\Guru\Documents\Visual Studio 2015\Projects\macmon\MacMon\bin\Debug\Topshelf.xml
 C:\Users\Guru\Documents\Visual Studio 2015\Projects\macmon\MacMon\obj\Debug\MacMon.csprojResolveAssemblyReference.cache
+C:\Users\Guru\Documents\Visual Studio 2015\Projects\macmon\MacMon\bin\Debug\Quartz.dll
+C:\Users\Guru\Documents\Visual Studio 2015\Projects\macmon\MacMon\bin\Debug\Quartz.pdb
+C:\Users\Guru\Documents\Visual Studio 2015\Projects\macmon\MacMon\bin\Debug\Quartz.xml

@@ -6,14 +6,14 @@
     }
   },
   "job": {
-    "applications": [],
-    "services": [],
+    "applications": [{"name": "notepad", "path": "c:\\notepad.exe"}],
+    "services": [{"name": "notepad", "path": "c:\\notepad.exe"}],
     "userActivity": true,
     "network": true
   },
   "profile": {
-    "name": "GURU-PC\\Guru",
-    "username": "S-1-5-21-1409611566-2154261569-3028516301-1001",
+    "name": "",
+    "username": "",
     "password": ""
   }
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using MacMon.Models;
@@ -21,7 +22,14 @@ namespace MacMon.Services.WebSocket
         {
             var socketFactory = new WebsocketSharpFactory();
             _socket = new Phoenix.Socket(socketFactory);
-            Connect(jwt);
+            try
+            {
+                Connect(jwt);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Cannot connect to socket because -> {0}", e.Message);
+            }
         }
 
         public static Phoenix.Socket InitSocket(JWT jwt)

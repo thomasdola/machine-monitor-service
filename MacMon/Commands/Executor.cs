@@ -8,7 +8,6 @@ namespace MacMon.Commands
     public class Executor
     {
         private readonly Channel _channel;
-        private readonly Profile _profile;
 
         private const string ChangePassword = "CHANGE_PASSWORD";
         private const string StartApplication = "START_APPLICATION";
@@ -17,27 +16,26 @@ namespace MacMon.Commands
         private const string StopService = "STOP_SERVICE";
         private const string ShutDown = "SHUT_DOWN";
 
-        private Executor(Channel channel, Profile profile)
+        private Executor(Channel channel)
         {
             _channel = channel;
-            _profile = profile;
         }
 
-        public static Executor Init(Channel channel, Profile profile)
+        public static Executor Init(Channel channel)
         {
             Console.WriteLine("Init Command Listeners");
-            return new Executor(channel, profile);
+            return new Executor(channel);
         }
 
         public void Start()
         {
             Console.WriteLine("Start Command Listeners");
-            _channel.On(ChangePassword, message => Console.WriteLine("About to change password"));
-            _channel.On(StartApplication, message => Console.WriteLine("About to Start process"));
-            _channel.On(StopApplication, message => Console.WriteLine("About to Start process"));
-            _channel.On(StartService, message => Console.WriteLine("About to Stop process"));
-            _channel.On(StopService, message => Console.WriteLine("About to Stop process"));
-            _channel.On(ShutDown, message => Console.WriteLine("About to Shut down machine"));
+            _channel.On(ChangePassword, message => Console.WriteLine("About to change password -> {0}", message));
+            _channel.On(StartApplication, message => Console.WriteLine("About to Start process -> {0}", message));
+            _channel.On(StopApplication, message => Console.WriteLine("About to Start process -> {0}", message));
+            _channel.On(StartService, message => Console.WriteLine("About to Stop process -> {0}", message));
+            _channel.On(StopService, message => Console.WriteLine("About to Stop process -> {0}", message));
+            _channel.On(ShutDown, message => Console.WriteLine("About to Shut down machine -> {0}", message));
         }
 
         public void StartApplicationM(string path)
@@ -72,7 +70,7 @@ namespace MacMon.Commands
 
         private void ChangePasswordM(string password)
         {
-            Account.Reset(_profile.Name, _profile.Username, password);
+            Account.Reset(Env.GetComputerName(), Env.GetUsername(), password);
         }
     }
 }
