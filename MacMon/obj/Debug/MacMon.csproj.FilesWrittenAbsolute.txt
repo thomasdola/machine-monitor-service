@@ -1,0 +1,17 @@
+/home/guru/Documents/projects/c#/MacMon/MacMon/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttribute.cs
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/MacMon.pdb
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/MacMon.exe
+/home/guru/Documents/projects/c#/MacMon/MacMon/obj/Debug/MacMon.exe
+/home/guru/Documents/projects/c#/MacMon/MacMon/obj/Debug/MacMon.pdb
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/nunit.framework.dll
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/Castle.Core.dll
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/JsonFlatFileDataStore.dll
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/Moq.dll
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/Newtonsoft.Json.dll
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/System.Threading.Tasks.Extensions.dll
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/System.ValueTuple.dll
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/RestSharp.dll
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/Topshelf.dll
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/Phoenix.dll
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/websocket-sharp.dll
+/home/guru/Documents/projects/c#/MacMon/MacMon/bin/Debug/LiteDB.dll

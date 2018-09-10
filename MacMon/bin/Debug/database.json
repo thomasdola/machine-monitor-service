@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "uuid": "46521Ni~G9V85vV9CetiMzm46mHihddJiFwp5sWosy2ZTd845BR_NDJDTK~Dmj2L",
+    "jwt": {
+      "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJtYWNoaW5lX21vbml0b3IiLCJleHAiOjE1Mzg5MTQ0NTAsImlhdCI6MTUzNjQ5NTI1MCwiaXNzIjoibWFjaGluZV9tb25pdG9yIiwianRpIjoiZjZhNWY0ODAtZTBhZC00YTg1LTljNWUtYmYzNTMzMzRiMTU5IiwibmJmIjoxNTM2NDk1MjQ5LCJzdWIiOiJNQUNISU5FOjEiLCJ0eXAiOiJhY2Nlc3MifQ.4R81ZTTwnvk8H1mrOGnUMZgHmkib44TXQC06KP0o9OFKtwy_SROiFFdodk3DNwE5imd5zywx-zPBIAHK_ssq5Q"
+    }
+  },
+  "job": {
+    "applications": [],
+    "services": [],
+    "userActivity": true,
+    "network": true
+  },
+  "profile": {
+    "name": "GURU-PC\\Guru",
+    "username": "S-1-5-21-1409611566-2154261569-3028516301-1001",
+    "password": ""
+  }
+}

@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JsonFlatFileDataStore</name>
+    </assembly>
+    <members>
+        <member name="T:JsonFlatFileDataStore.IDataStore">
+            <summary>
+            JSON data store
+            </summary>
+        </member>
+        <member name="P:JsonFlatFileDataStore.IDataStore.IsUpdating">
+            <summary>
+            Has the background thread update actions in the queue or is the update excuting
+            </summary>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.GetCollection(System.String)">
+            <summary>
+            Get dynamic collection
+            </summary>
+            <param name="name">Collection name</param>
+            <returns>Dynamic IDocumentCollection</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.GetCollection``1(System.String)">
+            <summary>
+            Get collection
+            </summary>
+            <typeparam name="T">Item type</typeparam>
+            <param name="name">Collection name</param>
+            <returns>Typed IDocumentCollection</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.GetKeys(System.Nullable{JsonFlatFileDataStore.ValueType})">
+            <summary>
+            List keys in JSON
+            </summary>
+            <param name="typeToGet">Item type to get</param>
+            <returns>Dictionary of keys and item value type</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.UpdateAll(System.String)">
+            <summary>
+            Update the content of the json file
+            </summary>
+            <param name="jsonData">New content</param>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.Reload">
+            <summary>
+            Reload data from the file
+            </summary>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.GetItem``1(System.String)">
+            <summary>
+            Get single item
+            </summary>
+            <typeparam name="T">Item type</typeparam>
+            <param name="key">Item key</param>
+            <returns>Typed item</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.GetItem(System.String)">
+            <summary>
+            Get single item
+            </summary>
+            <param name="key">Item key</param>
+            <returns>Dynamic item</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.InsertItem``1(System.String,``0)">
+            <summary>
+            Insert single item
+            </summary>
+            <typeparam name="T">Type of item</typeparam>
+            <param name="key">Item key</param>
+            <param name="item">New item to be inserted</param>
+            <returns>true if operation is successful</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.InsertItemAsync``1(System.String,``0)">
+            <summary>
+            Insert single item
+            </summary>
+            <typeparam name="T">Type of item</typeparam>
+            <param name="key">Item key</param>
+            <param name="item">New item to be inserted</param>
+            <returns>true if operation is successful</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.ReplaceItem``1(System.String,``0,System.Boolean)">
+            <summary>
+            Replace the item matching the key
+            </summary>
+            <typeparam name="T">Type of item</typeparam>
+            <param name="key">Item key</param>
+            <param name="item">New content</param>
+            <param name="upsert">Will item be inserted if not found</param>
+            <returns>true if item found for replacement</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.ReplaceItemAsync``1(System.String,``0,System.Boolean)">
+            <summary>
+            Replace the item matching the key
+            </summary>
+            <typeparam name="T">Type of item</typeparam>
+            <param name="key">Item key</param>
+            <param name="item">New content</param>
+            <param name="upsert">Will item be inserted if not found</param>
+            <returns>true if item found for replacement</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.UpdateItem(System.String,System.Object)">
+            <summary>
+            Update the item matching the key
+            </summary>
+            <param name="key">Item key</param>
+            <param name="item">New content</param>
+            <returns>true if item found for update</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.UpdateItemAsync(System.String,System.Object)">
+            <summary>
+            Update the item matching the key
+            </summary>
+            <param name="key">Item key</param>
+            <param name="item">New content</param>
+            <returns>true if item found for update</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.DeleteItem(System.String)">
+            <summary>
+            Delete the item matching the filter
+            </summary>
+            <param name="key">Item key</param>
+            <returns>true if items found for deletion</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDataStore.DeleteItemAsync(System.String)">
+            <summary>
+            Delete the item matching the filter
+            </summary>
+            <param name="key">Item key</param>
+            <returns>true if items found for deletion</returns>
+        </member>
+        <member name="T:JsonFlatFileDataStore.IDocumentCollection`1">
+            <summary>
+            Collection of items
+            </summary>
+            <typeparam name="T">Type of item</typeparam>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.AsQueryable">
+            <summary>
+            Collection as queryable
+            </summary>
+            <returns>All items in queryable collection</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.Find(System.Predicate{`0})">
+            <summary>
+            Find all items matching the query
+            </summary>
+            <param name="query">Filter predicate</param>
+            <returns>Items matching the query</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.Find(System.String,System.Boolean)">
+            <summary>
+            Full-text search
+            </summary>
+            <param name="text">Search text</param>
+            <param name="caseSensitive">Is the search case sensitive</param>
+            <returns>Items mathcing the search text</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.GetNextIdValue">
+            <summary>
+            Get next value for id field
+            </summary>
+            <returns>Integer or string identifier</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.InsertOne(`0)">
+            <summary>
+            Insert single item
+            </summary>
+            <param name="item">New item to be inserted</param>
+            <returns>true if operation is successful</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.InsertOneAsync(`0)">
+            <summary>
+            Insert single item
+            </summary>
+            <param name="item">New item to be inserted</param>
+            <returns>true if operation is successful</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.InsertMany(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Insert items
+            </summary>
+            <param name="items">New items to be inserted</param>
+            <returns>true if operation is successful</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.InsertManyAsync(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Insert items
+            </summary>
+            <param name="items">New items to be inserted</param>
+            <returns>true if operation is successful</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.ReplaceOne(System.Predicate{`0},`0,System.Boolean)">
+            <summary>
+            Replace the first item matching the filter
+            </summary>
+            <param name="filter">First item mathcing the predicate will be replaced</param>
+            <param name="item">New content</param>
+            <param name="upsert">Will item be inserted if not found</param>
+            <returns>true if items found for replacement</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.ReplaceOneAsync(System.Predicate{`0},`0,System.Boolean)">
+            <summary>
+            Replace the first item matching the filter
+            </summary>
+            <param name="filter">First item matching the predicate will be replaced</param>
+            <param name="item">New content</param>
+            <param name="upsert">Will item be inserted if not found</param>
+            <returns>true if items found for replacement</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.ReplaceMany(System.Predicate{`0},`0)">
+            <summary>
+            Replace all items matching the filter
+            </summary>
+            <param name="filter">All items matching the predicate will be replaced</param>
+            <param name="item">New content</param>
+            <returns>true if items found for replacement</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.ReplaceManyAsync(System.Predicate{`0},`0)">
+            <summary>
+            Replace all items matching the filter
+            </summary>
+            <param name="filter">All items matching the predicate will be replaced</param>
+            <param name="item">New content</param>
+            <returns>true if items found for replacement</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.UpdateOne(System.Predicate{`0},System.Object)">
+            <summary>
+            Update the first item matching the filter
+            </summary>
+            <param name="filter">First item matcheíng the predicate will be replaced</param>
+            <param name="item">New content</param>
+            <returns>true if items found for update</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.UpdateOneAsync(System.Predicate{`0},System.Object)">
+            <summary>
+            Update the first item matching the filter
+            </summary>
+            <param name="filter">First item matching the predicate will be replaced</param>
+            <param name="item">New content</param>
+            <returns>true if items found for update</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.UpdateMany(System.Predicate{`0},System.Object)">
+            <summary>
+            Update all items matching the filter
+            </summary>
+            <param name="filter">All items matching the predicate will be replaced</param>
+            <param name="item">New content</param>
+            <returns>true if items found for update</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.UpdateManyAsync(System.Predicate{`0},System.Object)">
+            <summary>
+            Update all items matching the filter
+            </summary>
+            <param name="filter">All items matching  the predicate will be replaced</param>
+            <param name="item">New content</param>
+            <returns>true if items found for update</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.DeleteOne(System.Predicate{`0})">
+            <summary>
+            Delete first item matching the filter
+            </summary>
+            <param name="filter">First item matching the predicate will be deleted</param>
+            <returns>true if items found for deletion</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.DeleteOneAsync(System.Predicate{`0})">
+            <summary>
+            Delete first item matching the filter
+            </summary>
+            <param name="filter">First item matching the predicate will be deleted</param>
+            <returns>true if items found for deletion</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.DeleteMany(System.Predicate{`0})">
+            <summary>
+            Delete all items matching the filter
+            </summary>
+            <param name="filter">All items matching the predicate will be deleted</param>
+            <returns>true if items found for deletion</returns>
+        </member>
+        <member name="M:JsonFlatFileDataStore.IDocumentCollection`1.DeleteManyAsync(System.Predicate{`0})">
+            <summary>
+            Delete all items matching the filter
+            </summary>
+            <param name="filter">All items matching the predicate will be deleted</param>
+            <returns>true if items found for deletion</returns>
+        </member>
+        <member name="P:JsonFlatFileDataStore.IDocumentCollection`1.Count">
+            <summary>
+            Number of items in the collection
+            </summary>
+        </member>
+        <member name="M:ObjectExtensions.CopyProperties(System.Object,System.Object)">
+            <summary>
+            Copy property values from the source object to the destination object
+            </summary>
+            <param name="source">The source</param>
+            <param name="destination">The destination</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Guru\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Guru\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_MacMon.1876797832.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Guru\Documents\Visual Studio 2015\Projects\macmon" t="IncludeFlat">
+      <e p="macmon" t="IncludeRecursive">
+        <e p="App.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Commands" t="Include">
+          <e p="Account.cs" t="Include" />
+          <e p="Application.cs" t="Include" />
+          <e p="Executor.cs" t="Include" />
+          <e p="Power.cs" t="Include" />
+          <e p="Service.cs" t="Include" />
+        </e>
+        <e p="ConfigureMaMo.cs" t="Include" />
+        <e p="Database" t="Include">
+          <e p="Store.cs" t="Include" />
+        </e>
+        <e p="Jobs" t="Include">
+          <e p="ApplicationsMonitor.cs" t="Include" />
+          <e p="Executor.cs" t="Include" />
+          <e p="NetworkMonitor.cs" t="Include" />
+          <e p="ServicesMonitor.cs" t="Include" />
+          <e p="UserActivitiesMonitor.cs" t="Include" />
+        </e>
+        <e p="MacMon.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Credential.cs" t="Include" />
+          <e p="Identity.cs" t="Include" />
+          <e p="Job.cs" t="Include" />
+          <e p="JWT.cs" t="Include" />
+          <e p="LogOut.cs" t="Include" />
+          <e p="Process.cs" t="Include" />
+          <e p="Profile.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="Http" t="Include">
+            <e p="MacMonApi.cs" t="Include" />
+          </e>
+          <e p="WebSocket" t="Include">
+            <e p="MacMonWebSocket.cs" t="Include" />
+            <e p="WebsocketSharpAdapter.cs" t="Include" />
+            <e p="WebsocketSharpFactory.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="MacMon.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
