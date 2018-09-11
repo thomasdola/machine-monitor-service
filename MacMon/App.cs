@@ -59,6 +59,19 @@ namespace MacMon
                 Console.WriteLine(e);
             }
         }
+        
+        public void Stop()
+        {
+            Console.WriteLine("app stopped");
+            if (Connection.IsAvailable())
+            {
+                var machineIdentity = _db.GetItem<Identity>(Store.IdentityKey);
+//                _channel.Leave();
+//                _socket.Disconnect();
+                _api.Logout(machineIdentity.Jwt);
+            }
+            _db.Dispose();
+        }
 
         private void Init()
         {
@@ -115,19 +128,6 @@ namespace MacMon
             {
                 Console.WriteLine("Network Unavailable");
             }
-        }
-
-        public void Stop()
-        {
-            Console.WriteLine("app stopped");
-            if (Connection.IsAvailable())
-            {
-                var machineIdentity = _db.GetItem<Identity>(Store.IdentityKey);
-//                _channel.Leave();
-//                _socket.Disconnect();
-                _api.Logout(machineIdentity.Jwt);
-            }
-            _db.Dispose();
         }
         
         private static void JoinChannel(Channel channel, Identity identity)

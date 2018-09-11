@@ -4,27 +4,98 @@
     <list default="true" id="dd780d56-ea5c-4fc3-87bd-611539638ddd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MacMon/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MacMon/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MacMon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MacMon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MacMon/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MacMon/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MacMon/App.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/App.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/Commands/Application.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Commands/Application.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/Commands/Executor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Commands/Executor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/ConfigureMaMo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/ConfigureMacMon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/Jobs/Executor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Jobs/Executor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/Jobs/UserActivitiesMonitor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/MacMon.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/MacMon.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/Models/Process.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Models/Process.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/Jobs/Scheduler/Quartz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Jobs/Scheduler/Quartz.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/Network/Monitor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/Network/Monitor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/Castle.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/Castle.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/JsonFlatFileDataStore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/JsonFlatFileDataStore.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/MacMon.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/MacMon.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/MacMon.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/MacMon.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/MacMon.vshost.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/MacMon.vshost.exe.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/Moq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/Moq.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/Newtonsoft.Json.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/Quartz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/Quartz.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/System.Threading.Tasks.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/System.Threading.Tasks.Extensions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/System.ValueTuple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/System.ValueTuple.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/Topshelf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/Topshelf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/database.json" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/database.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/bin/Debug/nunit.framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/bin/Debug/nunit.framework.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.csproj.FilesWrittenAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.csproj.FilesWrittenAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/obj/Debug/MacMon.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MacMon/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/MacMon/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Castle.Core.4.3.1/lib/net35/Castle.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Castle.Core.4.3.1/lib/net35/Castle.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Castle.Core.4.3.1/lib/net40/Castle.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Castle.Core.4.3.1/lib/net40/Castle.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Castle.Core.4.3.1/lib/net45/Castle.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Castle.Core.4.3.1/lib/net45/Castle.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Castle.Core.4.3.1/lib/netstandard1.3/Castle.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Castle.Core.4.3.1/lib/netstandard1.3/Castle.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Castle.Core.4.3.1/lib/netstandard1.5/Castle.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Castle.Core.4.3.1/lib/netstandard1.5/Castle.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/JsonFlatFileDataStore.2.0.0/lib/netstandard2.0/JsonFlatFileDataStore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/JsonFlatFileDataStore.2.0.0/lib/netstandard2.0/JsonFlatFileDataStore.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/LICENSE.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/LICENSE.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/de/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/de/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/es/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/es/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/fr/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/fr/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/it/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/it/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/ja/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/ja/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/ko/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/ko/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/ru/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/ru/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/zh-hans/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/zh-hans/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/zh-hant/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netcore50/zh-hant/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/de/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/de/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/es/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/es/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/fr/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/fr/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/it/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/it/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/ja/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/ja/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/ko/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/ko/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/ru/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/ru/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard2.0/Microsoft.CSharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/ref/netstandard2.0/Microsoft.CSharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Microsoft.CSharp.4.5.0/version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Moq.4.10.0/lib/net45/Moq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Moq.4.10.0/lib/net45/Moq.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Moq.4.10.0/lib/netstandard1.3/Moq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Moq.4.10.0/lib/netstandard1.3/Moq.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.10.1/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/NUnit.3.10.1/CHANGES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.10.1/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/NUnit.3.10.1/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.10.1/NOTICES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/NUnit.3.10.1/NOTICES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.10.1/build/NUnit.props" beforeDir="false" afterPath="$PROJECT_DIR$/packages/NUnit.3.10.1/build/NUnit.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.10.1/lib/net20/nunit.framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/NUnit.3.10.1/lib/net20/nunit.framework.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.10.1/lib/net35/nunit.framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/NUnit.3.10.1/lib/net35/nunit.framework.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.10.1/lib/net40/nunit.framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/NUnit.3.10.1/lib/net40/nunit.framework.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.10.1/lib/net45/nunit.framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/NUnit.3.10.1/lib/net45/nunit.framework.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.10.1/lib/netstandard1.6/nunit.framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/NUnit.3.10.1/lib/netstandard1.6/nunit.framework.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.10.1/lib/netstandard2.0/nunit.framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/NUnit.3.10.1/lib/netstandard2.0/nunit.framework.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/net20/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/net20/Newtonsoft.Json.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/net35/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/net35/Newtonsoft.Json.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/net40/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/net40/Newtonsoft.Json.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/net45/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/net45/Newtonsoft.Json.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/netstandard1.0/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/netstandard1.0/Newtonsoft.Json.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/netstandard1.3/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/netstandard1.3/Newtonsoft.Json.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/netstandard2.0/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/netstandard2.0/Newtonsoft.Json.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.11.0.2/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Quartz.3.0.6/lib/net452/Quartz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Quartz.3.0.6/lib/net452/Quartz.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Quartz.3.0.6/lib/netstandard2.0/Quartz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Quartz.3.0.6/lib/netstandard2.0/Quartz.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/ThirdPartyNotices.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/ThirdPartyNotices.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/dotnet_library_license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/dotnet_library_license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/lib/netstandard1.0/System.Threading.Tasks.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/lib/netstandard1.0/System.Threading.Tasks.Extensions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.Threading.Tasks.Extensions.4.3.0/lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/LICENSE.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/LICENSE.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/lib/net461/System.ValueTuple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/lib/net461/System.ValueTuple.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/lib/net47/System.ValueTuple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/lib/net47/System.ValueTuple.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/lib/netstandard1.0/System.ValueTuple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/lib/netstandard1.0/System.ValueTuple.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/ref/net461/System.ValueTuple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/ref/net461/System.ValueTuple.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/ref/net47/System.ValueTuple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/ref/net47/System.ValueTuple.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.4.0/version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Topshelf.4.0.4.161-develop/lib/net452/Topshelf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Topshelf.4.0.4.161-develop/lib/net452/Topshelf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Topshelf.4.0.4.161-develop/lib/netstandard2.0/Topshelf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Topshelf.4.0.4.161-develop/lib/netstandard2.0/Topshelf.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +140,7 @@
     <session id="-1260542635">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="3" />
@@ -100,86 +171,106 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1662055953">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="422099609">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="config" value="1" />
+          <entry key="cs" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="10" />
+          <entry key="Config" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MacMon/App.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="130" column="9" lean-forward="true" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
+            <state relative-caret-position="-312">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
-                <marker date="1536621588948" expanded="false" signature="6:353" ph="..." />
-                <marker date="1536621588948" expanded="true" signature="371:6021" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="394:5508" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="669:805" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="834:1451" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="904:1044" ph="/* Init dataStore with default data ... */" />
-                <marker date="1536621588948" expanded="true" signature="1061:1343" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="1121:1239" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="1260:1329" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="1375:1441" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="1480:2699" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="1778:2047" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="2064:2342" ph="{...}" />
-                <marker date="1536621588948" expanded="false" signature="2740:3031" ph="{...}" />
-                <marker date="1536621588948" expanded="false" signature="3146:3419" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="3187:3306" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="3323:3409" ph="{...}" />
-                <marker date="1536621588948" expanded="false" signature="3447:3816" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="3545:3779" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="3640:3715" ph="/* _channel.Leave(); ... */" />
-                <marker date="1536621588948" expanded="false" signature="3901:4430" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="4032:4093" ph="{...}" />
-                <marker date="1536621588948" expanded="false" signature="4512:4852" ph="{...}" />
-                <marker date="1536621588948" expanded="false" signature="4914:5200" ph="{...}" />
-                <marker date="1536621588948" expanded="false" signature="5264:5502" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="5373:5460" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="5552:5680" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="5605:5674" ph="{...}" />
-                <marker date="1536621588948" expanded="false" signature="5709:6019" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="5762:5866" ph="{...}" />
-                <marker date="1536621588948" expanded="true" signature="5910:6013" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="6:353" ph="..." />
+                <marker date="1536696845735" expanded="true" signature="371:6029" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="394:5516" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="669:805" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="834:1451" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="904:1044" ph="/* Init dataStore with default data ... */" />
+                <marker date="1536696845735" expanded="true" signature="1061:1343" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="1121:1239" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="1260:1329" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="1375:1441" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="1487:1856" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="1585:1819" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="1680:1755" ph="/* _channel.Leave(); ... */" />
+                <marker date="1536696845735" expanded="true" signature="1885:3104" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="2183:2452" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="2469:2747" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="3145:3436" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="3551:3824" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="3592:3711" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="3728:3814" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="3909:4438" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="4040:4101" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="4520:4860" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="4922:5208" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="5272:5510" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="5381:5468" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="5560:5688" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="5613:5682" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="5717:6027" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="5770:5874" ph="{...}" />
+                <marker date="1536696845735" expanded="true" signature="5918:6021" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MacMon/Commands/Executor.cs">
+        <entry file="file://$PROJECT_DIR$/MacMon/Network/Monitor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="286">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
-                <marker date="1536621956494" expanded="false" signature="6:83" ph="..." />
-                <marker date="1536621956494" expanded="true" signature="110:2358" ph="{...}" />
-                <marker date="1536621956494" expanded="true" signature="138:2356" ph="{...}" />
-                <marker date="1536621956494" expanded="true" signature="605:657" ph="{...}" />
-                <marker date="1536621956494" expanded="true" signature="711:830" ph="{...}" />
-                <marker date="1536621956494" expanded="true" signature="859:1611" ph="{...}" />
-                <marker date="1536621956494" expanded="true" signature="1663:1720" ph="{...}" />
-                <marker date="1536621956494" expanded="true" signature="1771:1827" ph="{...}" />
-                <marker date="1536621956494" expanded="true" signature="1875:1928" ph="{...}" />
-                <marker date="1536621956494" expanded="true" signature="1975:2027" ph="{...}" />
-                <marker date="1536621956494" expanded="true" signature="2061:2106" ph="{...}" />
-                <marker date="1536621956494" expanded="true" signature="2147:2196" ph="{...}" />
-                <marker date="1536621956494" expanded="true" signature="2251:2350" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MacMon/Jobs/Scheduler/Quartz.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
-              <folding>
-                <marker date="1536620866344" expanded="true" signature="6:70" ph="..." />
-                <marker date="1536620866344" expanded="true" signature="103:636" ph="{...}" />
-                <marker date="1536620866344" expanded="true" signature="136:634" ph="{...}" />
-                <marker date="1536620866344" expanded="true" signature="215:628" ph="{...}" />
-                <marker date="1536620866344" expanded="true" signature="302:372" ph="{...}" />
+                <marker date="1536588192250" expanded="false" signature="6:70" ph="..." />
+                <marker date="1536588192250" expanded="true" signature="96:871" ph="{...}" />
+                <marker date="1536588192250" expanded="true" signature="133:267" ph="{...}" />
+                <marker date="1536588192250" expanded="true" signature="180:261" ph="{...}" />
+                <marker date="1536588192250" expanded="true" signature="297:869" ph="{...}" />
+                <marker date="1536588192250" expanded="true" signature="464:518" ph="{...}" />
+                <marker date="1536588192250" expanded="true" signature="606:669" ph="{...}" />
+                <marker date="1536588192250" expanded="true" signature="699:863" ph="{...}" />
+                <marker date="1536588192250" expanded="true" signature="756:853" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -188,18 +279,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="442">
+              <caret line="22" column="59" lean-forward="true" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
               <folding>
-                <marker date="1536621956434" expanded="true" signature="6:127" ph="..." />
-                <marker date="1536621956434" expanded="true" signature="150:1484" ph="{...}" />
-                <marker date="1536621956434" expanded="true" signature="196:1482" ph="{...}" />
-                <marker date="1536621956434" expanded="true" signature="270:981" ph="{...}" />
-                <marker date="1536621956434" expanded="true" signature="414:971" ph="{...}" />
-                <marker date="1536621956434" expanded="true" signature="618:777" ph="{...}" />
-                <marker date="1536621956434" expanded="true" signature="816:957" ph="{...}" />
-                <marker date="1536621956434" expanded="true" signature="1054:1476" ph="{...}" />
-                <marker date="1536621956434" expanded="true" signature="1393:1466" ph="{...}" />
+                <marker date="1536621956434" expanded="true" signature="21:83" ph="{...}" />
+                <marker date="1536621956434" expanded="true" signature="60:81" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MacMon/MacMon/Jobs/ApplicationsMonitor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <marker date="1536517239575" expanded="true" signature="21:83" ph="{...}" />
+                <marker date="1536517239575" expanded="true" signature="60:81" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MacMon/MacMon/Jobs/NetworkMonitor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <marker date="1536427103150" expanded="true" signature="21:78" ph="{...}" />
+                <marker date="1536427103150" expanded="true" signature="55:76" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MacMon/MacMon/Jobs/ServicesMonitor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <marker date="1536427103157" expanded="true" signature="21:79" ph="{...}" />
+                <marker date="1536427103157" expanded="true" signature="56:77" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -208,8 +331,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="14" column="64" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="64" />
+            <state relative-caret-position="468">
+              <caret line="21" column="70" lean-forward="true" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
               <folding>
                 <marker date="1536593904702" expanded="false" signature="6:107" ph="..." />
                 <marker date="1536593904702" expanded="true" signature="144:1535" ph="{...}" />
@@ -224,65 +347,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-              <folding>
-                <marker date="1536621956520" expanded="true" signature="6:169" ph="..." />
-                <marker date="1536621956520" expanded="true" signature="192:2242" ph="{...}" />
-                <marker date="1536621956520" expanded="true" signature="234:2240" ph="{...}" />
-                <marker date="1536621956520" expanded="true" signature="291:2044" ph="{...}" />
-                <marker date="1536621956520" expanded="true" signature="418:2034" ph="{...}" />
-                <marker date="1536621956520" expanded="true" signature="643:1383" ph="{...}" />
-                <marker date="1536621956520" expanded="true" signature="1446:1846" ph="{...}" />
-                <marker date="1536621956520" expanded="true" signature="1621:1828" ph="{...}" />
-                <marker date="1536621956520" expanded="true" signature="1883:2020" ph="{...}" />
-                <marker date="1536621956520" expanded="true" signature="2109:2234" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1302">
-              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+            <state relative-caret-position="-182">
+              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding>
-                <marker date="1536621956473" expanded="true" signature="6:175" ph="..." />
-                <marker date="1536621956473" expanded="true" signature="198:1765" ph="{...}" />
-                <marker date="1536621956473" expanded="true" signature="240:1763" ph="{...}" />
-                <marker date="1536621956473" expanded="true" signature="314:1100" ph="{...}" />
-                <marker date="1536621956473" expanded="true" signature="574:631" ph="{...}" />
-                <marker date="1536621956473" expanded="true" signature="650:707" ph="{...}" />
-                <marker date="1536621956473" expanded="true" signature="795:930" ph="{...}" />
-                <marker date="1536621956473" expanded="true" signature="965:1090" ph="{...}" />
-                <marker date="1536621956473" expanded="true" signature="1166:1298" ph="{...}" />
-                <marker date="1536621956473" expanded="true" signature="1363:1757" ph="{...}" />
-                <marker date="1536621956473" expanded="true" signature="1678:1747" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MacMon/Commands/Application.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-              <folding>
-                <marker date="1536622014758" expanded="true" signature="6:39" ph="..." />
-                <marker date="1536622014758" expanded="true" signature="66:842" ph="{...}" />
-                <marker date="1536622014758" expanded="true" signature="97:840" ph="{...}" />
-                <marker date="1536622014758" expanded="true" signature="149:416" ph="{...}" />
-                <marker date="1536622014758" expanded="true" signature="211:318" ph="{...}" />
-                <marker date="1536622014758" expanded="true" signature="348:406" ph="{...}" />
-                <marker date="1536622014758" expanded="true" signature="465:834" ph="{...}" />
-                <marker date="1536622014758" expanded="true" signature="492:736" ph="{...}" />
-                <marker date="1536622014758" expanded="true" signature="624:692" ph="{...}" />
-                <marker date="1536622014758" expanded="true" signature="766:824" ph="{...}" />
+                <marker date="1536621956473" expanded="true" signature="21:79" ph="{...}" />
+                <marker date="1536621956473" expanded="true" signature="56:77" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -291,28 +363,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MacMon/Jobs/Executor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+            <state relative-caret-position="468">
+              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
               <folding>
-                <marker date="1536621301367" expanded="true" signature="6:91" ph="..." />
+                <marker date="1536621301367" expanded="false" signature="6:91" ph="..." />
                 <marker date="1536621301367" expanded="true" signature="114:2605" ph="{...}" />
                 <marker date="1536621301367" expanded="true" signature="142:2603" ph="{...}" />
                 <marker date="1536621301367" expanded="true" signature="234:286" ph="{...}" />
                 <marker date="1536621301367" expanded="true" signature="340:402" ph="{...}" />
                 <marker date="1536621301367" expanded="true" signature="438:2597" ph="{...}" />
-                <marker date="1536621301367" expanded="false" signature="589:1165" ph="{...}" />
-                <marker date="1536621301367" expanded="false" signature="1222:1896" ph="{...}" />
-                <marker date="1536621301367" expanded="false" signature="1949:2587" ph="{...}" />
+                <marker date="1536621301367" expanded="true" signature="589:1165" ph="{...}" />
+                <marker date="1536621301367" expanded="true" signature="1222:1896" ph="{...}" />
+                <marker date="1536621301367" expanded="true" signature="1949:2587" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MacMon/bin/Debug/database.json">
+        <entry file="file://$PROJECT_DIR$/MacMon/Models/Process.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="52">
+              <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+              <folding>
+                <marker date="1536603009896" expanded="true" signature="23:146" ph="{...}" />
+                <marker date="1536603009896" expanded="true" signature="50:144" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -325,31 +401,34 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MacMon/MacMon/Jobs/NetworkMonitor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MacMon/MacMon/Jobs/ServicesMonitor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Jobs/Executor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MacMon/App.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MacMon/MacMon/Jobs/ApplicationsMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MacMon/Jobs/Scheduler/Quartz.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Models/JWT.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Models/Job.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MacMon/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Models/Identity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Models/Process.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MacMon/Models/Credential.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Models/Profile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MacMon/Models/Credential.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Models/LogOut.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MacMon/Network/Monitor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Commands/Application.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MacMon/ConfigureMacMon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MacMon/Commands/Executor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MacMon/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Commands/Service.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MacMon/Commands/Executor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Commands/Account.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Commands/Power.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MacMon/App.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Database/Store.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Services/Http/MacMonApi.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MacMon/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Services/WebSocket/WebsocketSharpFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Services/WebSocket/WebsocketSharpAdapter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MacMon/Network/Monitor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MacMon/Jobs/Scheduler/Quartz.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MacMon/ConfigureMacMon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MacMon/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -382,12 +461,12 @@
         <option value="$PROJECT_DIR$/MacMon/Jobs/Scheduler/Quartz.cs" />
         <option value="$PROJECT_DIR$/MacMon/bin/Debug/database.json" />
         <option value="$PROJECT_DIR$/MacMon/Jobs/Executor.cs" />
-        <option value="$PROJECT_DIR$/MacMon/App.cs" />
         <option value="$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs" />
         <option value="$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs" />
         <option value="$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs" />
         <option value="$PROJECT_DIR$/MacMon/Commands/Executor.cs" />
         <option value="$PROJECT_DIR$/MacMon/Commands/Application.cs" />
+        <option value="$PROJECT_DIR$/MacMon/App.cs" />
       </list>
     </option>
   </component>
@@ -435,6 +514,31 @@
               <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Jobs" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Network" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MacMon" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WebSocket" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -518,12 +622,14 @@
       <workItem from="1536425567838" duration="35812000" />
       <workItem from="1536584775424" duration="116000" />
       <workItem from="1536584929021" duration="1138000" />
-      <workItem from="1536586615071" duration="30890000" />
+      <workItem from="1536586615071" duration="31827000" />
+      <workItem from="1536623100971" duration="28000" />
+      <workItem from="1536696493323" duration="474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67956000" />
+    <option name="totallyTimeSpent" value="69395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,10 +641,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="51" y="27" width="1869" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17921935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -553,9 +658,9 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.3293348" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.3286334" />
+      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.32824427" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -567,7 +672,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -587,13 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/packages.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="93" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -636,16 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <marker date="1536479138000" expanded="false" signature="6:51" ph="..." />
-            <marker date="1536479138000" expanded="true" signature="117:315" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="360:2148" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="508:965" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="1033:1303" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="1374:1641" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="1677:1874" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="1913:2142" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,178 +765,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/ConfigureMacMon.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding>
-            <marker date="1536589142190" expanded="true" signature="33:996" ph="{...}" />
-            <marker date="1536589142190" expanded="true" signature="77:994" ph="{...}" />
-            <marker date="1536589142190" expanded="true" signature="124:988" ph="{...}" />
-            <marker date="1536589142190" expanded="true" signature="177:974" ph="{...}" />
-            <marker date="1536589142190" expanded="true" signature="249:466" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <marker date="1536589142627" expanded="true" signature="16:167" ph="{...}" />
-            <marker date="1536589142627" expanded="true" signature="45:165" ph="{...}" />
-            <marker date="1536589142627" expanded="true" signature="98:159" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MacMon/Database/Store.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
-          <folding>
-            <marker date="1536479138000" expanded="false" signature="6:139" ph="..." />
-            <marker date="1536479138000" expanded="true" signature="166:2971" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="191:2969" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="482:788" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="841:1043" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="1102:1797" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="1191:1276" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="1317:1787" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="1454:1701" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="1849:2307" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="1939:2026" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="2067:2297" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="2362:2963" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="2447:2524" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="2565:2953" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="2690:2875" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/UserActivitiesMonitor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Models/Process.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding>
-            <marker date="1536603009896" expanded="true" signature="23:146" ph="{...}" />
-            <marker date="1536603009896" expanded="true" signature="50:144" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Network/Monitor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <marker date="1536588192250" expanded="true" signature="6:70" ph="..." />
-            <marker date="1536588192250" expanded="true" signature="96:871" ph="{...}" />
-            <marker date="1536588192250" expanded="true" signature="133:267" ph="{...}" />
-            <marker date="1536588192250" expanded="true" signature="180:261" ph="{...}" />
-            <marker date="1536588192250" expanded="false" signature="297:869" ph="{...}" />
-            <marker date="1536588192250" expanded="true" signature="464:518" ph="{...}" />
-            <marker date="1536588192250" expanded="true" signature="606:669" ph="{...}" />
-            <marker date="1536588192250" expanded="true" signature="699:863" ph="{...}" />
-            <marker date="1536588192250" expanded="true" signature="756:853" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/UserActivitiesMonitor.cs" />
     <entry file="file://$PROJECT_DIR$/MacMon/Commands/Service.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="681">
           <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <marker date="1536479138000" expanded="false" signature="6:47" ph="..." />
-            <marker date="1536479138000" expanded="true" signature="74:1316" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="101:1314" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="153:544" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="590:966" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="1020:1110" ph="{...}" />
-            <marker date="1536479138000" expanded="true" signature="1176:1308" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="64" />
-          <folding>
-            <marker date="1536593904702" expanded="false" signature="6:107" ph="..." />
-            <marker date="1536593904702" expanded="true" signature="144:1535" ph="{...}" />
-            <marker date="1536593904702" expanded="true" signature="248:1533" ph="{...}" />
-            <marker date="1536593904702" expanded="true" signature="777:1138" ph="{...}" />
-            <marker date="1536593904702" expanded="true" signature="921:979" ph="{...}" />
-            <marker date="1536593904702" expanded="true" signature="1011:1128" ph="{...}" />
-            <marker date="1536593904702" expanded="true" signature="1196:1320" ph="{...}" />
-            <marker date="1536593904702" expanded="true" signature="1359:1527" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/bin/Debug/database.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/Executor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-          <folding>
-            <marker date="1536621301367" expanded="true" signature="6:91" ph="..." />
-            <marker date="1536621301367" expanded="true" signature="114:2605" ph="{...}" />
-            <marker date="1536621301367" expanded="true" signature="142:2603" ph="{...}" />
-            <marker date="1536621301367" expanded="true" signature="234:286" ph="{...}" />
-            <marker date="1536621301367" expanded="true" signature="340:402" ph="{...}" />
-            <marker date="1536621301367" expanded="true" signature="438:2597" ph="{...}" />
-            <marker date="1536621301367" expanded="false" signature="589:1165" ph="{...}" />
-            <marker date="1536621301367" expanded="false" signature="1222:1896" ph="{...}" />
-            <marker date="1536621301367" expanded="false" signature="1949:2587" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding>
-            <marker date="1536621956473" expanded="true" signature="6:175" ph="..." />
-            <marker date="1536621956473" expanded="true" signature="198:1765" ph="{...}" />
-            <marker date="1536621956473" expanded="true" signature="240:1763" ph="{...}" />
-            <marker date="1536621956473" expanded="true" signature="314:1100" ph="{...}" />
-            <marker date="1536621956473" expanded="true" signature="574:631" ph="{...}" />
-            <marker date="1536621956473" expanded="true" signature="650:707" ph="{...}" />
-            <marker date="1536621956473" expanded="true" signature="795:930" ph="{...}" />
-            <marker date="1536621956473" expanded="true" signature="965:1090" ph="{...}" />
-            <marker date="1536621956473" expanded="true" signature="1166:1298" ph="{...}" />
-            <marker date="1536621956473" expanded="true" signature="1363:1757" ph="{...}" />
-            <marker date="1536621956473" expanded="true" signature="1678:1747" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MacMon/Jobs/Scheduler/Quartz.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="364">
           <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
           <folding>
             <marker date="1536620866344" expanded="true" signature="6:70" ph="..." />
-            <marker date="1536620866344" expanded="true" signature="103:636" ph="{...}" />
             <marker date="1536620866344" expanded="true" signature="136:634" ph="{...}" />
             <marker date="1536620866344" expanded="true" signature="215:628" ph="{...}" />
             <marker date="1536620866344" expanded="true" signature="302:372" ph="{...}" />
@@ -858,11 +795,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MacMon/Jobs/NetworkMonitor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
+        <state relative-caret-position="1222">
           <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding>
             <marker date="1536621956520" expanded="true" signature="6:169" ph="..." />
-            <marker date="1536621956520" expanded="true" signature="192:2242" ph="{...}" />
             <marker date="1536621956520" expanded="true" signature="234:2240" ph="{...}" />
             <marker date="1536621956520" expanded="true" signature="291:2044" ph="{...}" />
             <marker date="1536621956520" expanded="true" signature="418:2034" ph="{...}" />
@@ -875,27 +811,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs">
+    <entry file="file://$PROJECT_DIR$/MacMon/Commands/Application.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="858">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding>
-            <marker date="1536621956434" expanded="true" signature="6:127" ph="..." />
-            <marker date="1536621956434" expanded="true" signature="150:1484" ph="{...}" />
-            <marker date="1536621956434" expanded="true" signature="196:1482" ph="{...}" />
-            <marker date="1536621956434" expanded="true" signature="270:981" ph="{...}" />
-            <marker date="1536621956434" expanded="true" signature="414:971" ph="{...}" />
-            <marker date="1536621956434" expanded="true" signature="618:777" ph="{...}" />
-            <marker date="1536621956434" expanded="true" signature="816:957" ph="{...}" />
-            <marker date="1536621956434" expanded="true" signature="1054:1476" ph="{...}" />
-            <marker date="1536621956434" expanded="true" signature="1393:1466" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="6:39" ph="..." />
+            <marker date="1536622014758" expanded="true" signature="97:840" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="149:416" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="211:318" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="348:406" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="465:834" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="492:736" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="624:692" ph="{...}" />
+            <marker date="1536622014758" expanded="true" signature="766:824" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/bin/Debug/database.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MacMon/Commands/Executor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="-88">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <marker date="1536621956494" expanded="false" signature="6:83" ph="..." />
@@ -915,61 +858,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MacMon/Commands/Application.cs">
+    <entry file="file://$PROJECT_DIR$/MacMon/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="234">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding>
-            <marker date="1536622014758" expanded="true" signature="6:39" ph="..." />
-            <marker date="1536622014758" expanded="true" signature="66:842" ph="{...}" />
-            <marker date="1536622014758" expanded="true" signature="97:840" ph="{...}" />
-            <marker date="1536622014758" expanded="true" signature="149:416" ph="{...}" />
-            <marker date="1536622014758" expanded="true" signature="211:318" ph="{...}" />
-            <marker date="1536622014758" expanded="true" signature="348:406" ph="{...}" />
-            <marker date="1536622014758" expanded="true" signature="465:834" ph="{...}" />
-            <marker date="1536622014758" expanded="true" signature="492:736" ph="{...}" />
-            <marker date="1536622014758" expanded="true" signature="624:692" ph="{...}" />
-            <marker date="1536622014758" expanded="true" signature="766:824" ph="{...}" />
+            <marker date="1536589142627" expanded="true" signature="16:167" ph="{...}" />
+            <marker date="1536589142627" expanded="true" signature="45:165" ph="{...}" />
+            <marker date="1536589142627" expanded="true" signature="98:159" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/ConfigureMacMon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding>
+            <marker date="1536589142190" expanded="true" signature="33:996" ph="{...}" />
+            <marker date="1536589142190" expanded="true" signature="77:994" ph="{...}" />
+            <marker date="1536589142190" expanded="true" signature="124:988" ph="{...}" />
+            <marker date="1536589142190" expanded="true" signature="177:974" ph="{...}" />
+            <marker date="1536589142190" expanded="true" signature="249:466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Network/Monitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <marker date="1536588192250" expanded="false" signature="6:70" ph="..." />
+            <marker date="1536588192250" expanded="true" signature="96:871" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="133:267" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="180:261" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="297:869" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="464:518" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="606:669" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="699:863" ph="{...}" />
+            <marker date="1536588192250" expanded="true" signature="756:853" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MacMon/App.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="130" column="9" lean-forward="true" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
+        <state relative-caret-position="-312">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
-            <marker date="1536621588948" expanded="false" signature="6:353" ph="..." />
-            <marker date="1536621588948" expanded="true" signature="371:6021" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="394:5508" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="669:805" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="834:1451" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="904:1044" ph="/* Init dataStore with default data ... */" />
-            <marker date="1536621588948" expanded="true" signature="1061:1343" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="1121:1239" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="1260:1329" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="1375:1441" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="1480:2699" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="1778:2047" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="2064:2342" ph="{...}" />
-            <marker date="1536621588948" expanded="false" signature="2740:3031" ph="{...}" />
-            <marker date="1536621588948" expanded="false" signature="3146:3419" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="3187:3306" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="3323:3409" ph="{...}" />
-            <marker date="1536621588948" expanded="false" signature="3447:3816" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="3545:3779" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="3640:3715" ph="/* _channel.Leave(); ... */" />
-            <marker date="1536621588948" expanded="false" signature="3901:4430" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="4032:4093" ph="{...}" />
-            <marker date="1536621588948" expanded="false" signature="4512:4852" ph="{...}" />
-            <marker date="1536621588948" expanded="false" signature="4914:5200" ph="{...}" />
-            <marker date="1536621588948" expanded="false" signature="5264:5502" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="5373:5460" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="5552:5680" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="5605:5674" ph="{...}" />
-            <marker date="1536621588948" expanded="false" signature="5709:6019" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="5762:5866" ph="{...}" />
-            <marker date="1536621588948" expanded="true" signature="5910:6013" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="6:353" ph="..." />
+            <marker date="1536696845735" expanded="true" signature="371:6029" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="394:5516" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="669:805" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="834:1451" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="904:1044" ph="/* Init dataStore with default data ... */" />
+            <marker date="1536696845735" expanded="true" signature="1061:1343" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="1121:1239" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="1260:1329" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="1375:1441" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="1487:1856" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="1585:1819" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="1680:1755" ph="/* _channel.Leave(); ... */" />
+            <marker date="1536696845735" expanded="true" signature="1885:3104" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="2183:2452" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="2469:2747" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="3145:3436" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="3551:3824" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="3592:3711" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="3728:3814" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="3909:4438" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="4040:4101" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="4520:4860" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="4922:5208" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="5272:5510" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="5381:5468" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="5560:5688" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="5613:5682" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="5717:6027" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="5770:5874" ph="{...}" />
+            <marker date="1536696845735" expanded="true" signature="5918:6021" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Models/Process.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding>
+            <marker date="1536603009896" expanded="true" signature="23:146" ph="{...}" />
+            <marker date="1536603009896" expanded="true" signature="50:144" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/ApplicationsMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="22" column="59" lean-forward="true" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding>
+            <marker date="1536621956434" expanded="true" signature="21:83" ph="{...}" />
+            <marker date="1536621956434" expanded="true" signature="60:81" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MacMon/MacMon/Jobs/ApplicationsMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1536517239575" expanded="true" signature="21:83" ph="{...}" />
+            <marker date="1536517239575" expanded="true" signature="60:81" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MacMon/MacMon/Jobs/NetworkMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1536427103150" expanded="true" signature="21:78" ph="{...}" />
+            <marker date="1536427103150" expanded="true" signature="55:76" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MacMon/MacMon/Jobs/ServicesMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <marker date="1536427103157" expanded="true" signature="21:79" ph="{...}" />
+            <marker date="1536427103157" expanded="true" signature="56:77" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/Executor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <marker date="1536621301367" expanded="false" signature="6:91" ph="..." />
+            <marker date="1536621301367" expanded="true" signature="114:2605" ph="{...}" />
+            <marker date="1536621301367" expanded="true" signature="142:2603" ph="{...}" />
+            <marker date="1536621301367" expanded="true" signature="234:286" ph="{...}" />
+            <marker date="1536621301367" expanded="true" signature="340:402" ph="{...}" />
+            <marker date="1536621301367" expanded="true" signature="438:2597" ph="{...}" />
+            <marker date="1536621301367" expanded="true" signature="589:1165" ph="{...}" />
+            <marker date="1536621301367" expanded="true" signature="1222:1896" ph="{...}" />
+            <marker date="1536621301367" expanded="true" signature="1949:2587" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Services/WebSocket/MacMonWebSocket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="21" column="70" lean-forward="true" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+          <folding>
+            <marker date="1536593904702" expanded="false" signature="6:107" ph="..." />
+            <marker date="1536593904702" expanded="true" signature="144:1535" ph="{...}" />
+            <marker date="1536593904702" expanded="true" signature="248:1533" ph="{...}" />
+            <marker date="1536593904702" expanded="true" signature="777:1138" ph="{...}" />
+            <marker date="1536593904702" expanded="true" signature="921:979" ph="{...}" />
+            <marker date="1536593904702" expanded="true" signature="1011:1128" ph="{...}" />
+            <marker date="1536593904702" expanded="true" signature="1196:1320" ph="{...}" />
+            <marker date="1536593904702" expanded="true" signature="1359:1527" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacMon/Jobs/ServicesMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding>
+            <marker date="1536621956473" expanded="true" signature="21:79" ph="{...}" />
+            <marker date="1536621956473" expanded="true" signature="56:77" ph="{...}" />
           </folding>
         </state>
       </provider>
