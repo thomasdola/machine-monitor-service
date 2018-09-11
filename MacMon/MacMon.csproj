@@ -73,6 +73,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Remoting" />
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
@@ -84,6 +85,8 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Topshelf, Version=4.0.4.161, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b">
       <HintPath>..\packages\Topshelf.4.0.4.161-develop\lib\net452\Topshelf.dll</HintPath>
@@ -104,16 +107,20 @@
     <Compile Include="Database\Store.cs" />
     <Compile Include="Jobs\ApplicationsMonitor.cs" />
     <Compile Include="Jobs\Executor.cs" />
+    <Compile Include="Jobs\LocationMonitor.cs" />
     <Compile Include="Jobs\NetworkMonitor.cs" />
     <Compile Include="Jobs\ServicesMonitor.cs" />
     <Compile Include="Jobs\Scheduler\Quartz.cs" />
+    <Compile Include="Jobs\UserActivitiesMonitor.cs" />
     <Compile Include="Models\Credential.cs" />
     <Compile Include="Models\Identity.cs" />
     <Compile Include="Models\Job.cs" />
     <Compile Include="Models\JWT.cs" />
+    <Compile Include="Models\LocationCoordinate.cs" />
     <Compile Include="Models\LogOut.cs" />
     <Compile Include="Models\Process.cs" />
     <Compile Include="Models\Profile.cs" />
+    <Compile Include="Models\UserActivity.cs" />
     <Compile Include="Network\Monitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

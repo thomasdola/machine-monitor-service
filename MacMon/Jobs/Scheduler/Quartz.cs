@@ -8,13 +8,13 @@ namespace MacMon.Jobs.Scheduler
     {
         public static async void Start(IJobDetail job, ITrigger trigger)
         {
-            NameValueCollection props = new NameValueCollection
+            var props = new NameValueCollection
             {
                 { "quartz.serializer.type", "binary" }
             };
-            StdSchedulerFactory factory = new StdSchedulerFactory(props);
+            var factory = new StdSchedulerFactory(props);
             
-            IScheduler sched = await factory.GetScheduler();
+            var sched = await factory.GetScheduler();
             await sched.Start();
             
             await sched.ScheduleJob(job, trigger);

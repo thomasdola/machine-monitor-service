@@ -25,6 +25,7 @@ namespace MacMon
         private Socket _socket;
         //need socket channel
         private Channel _channel;
+        private Jobs.Executor _jobExecutor;
 
         public App()
         {
@@ -63,6 +64,7 @@ namespace MacMon
         public void Stop()
         {
             Console.WriteLine("app stopped");
+            _jobExecutor.Stop();
             if (Connection.IsAvailable())
             {
                 var machineIdentity = _db.GetItem<Identity>(Store.IdentityKey);
@@ -105,7 +107,8 @@ namespace MacMon
 
             Executor.Init(_channel).Start();
 
-            Jobs.Executor.Init(_channel).Start(job);
+            _jobExecutor = Jobs.Executor.Init(_channel, _db);
+            _jobExecutor.Start(job);
         }
 
         private static void DelayInit()

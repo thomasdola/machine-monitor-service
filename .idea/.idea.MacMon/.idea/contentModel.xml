@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="/ae231b0b" t="IncludeRecursive" />
     <e p="/app" t="IncludeRecursive" />
+    <e p="/eb6785ce" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2018.2/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_MacMon.1599900187.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$/../MacMon/MacMon/bin" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$/../MacMon/MacMon/obj" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_MacMon.-102444814.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="MacMon" t="IncludeRecursive">
         <e p="App.cs" t="Include" />
@@ -24,11 +22,13 @@
         <e p="Jobs" t="Include">
           <e p="ApplicationsMonitor.cs" t="Include" />
           <e p="Executor.cs" t="Include" />
+          <e p="LocationMonitor.cs" t="Include" />
           <e p="NetworkMonitor.cs" t="Include" />
           <e p="Scheduler" t="Include">
             <e p="Quartz.cs" t="Include" />
           </e>
           <e p="ServicesMonitor.cs" t="Include" />
+          <e p="UserActivitiesMonitor.cs" t="Include" />
         </e>
         <e p="MacMon.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
@@ -36,9 +36,11 @@
           <e p="Identity.cs" t="Include" />
           <e p="JWT.cs" t="Include" />
           <e p="Job.cs" t="Include" />
+          <e p="LocationCoordinate.cs" t="Include" />
           <e p="LogOut.cs" t="Include" />
           <e p="Process.cs" t="Include" />
           <e p="Profile.cs" t="Include" />
+          <e p="UserActivity.cs" t="Include" />
         </e>
         <e p="Network" t="Include">
           <e p="Monitor.cs" t="Include" />
@@ -57,6 +59,8 @@
             <e p="WebsocketSharpFactory.cs" t="Include" />
           </e>
         </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
       </e>
       <e p="MacMon.sln" t="IncludeFlat" />
