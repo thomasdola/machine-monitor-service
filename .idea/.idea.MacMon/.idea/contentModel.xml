@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="/app" t="IncludeRecursive" />
-    <e p="/eb6785ce" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.2/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_MacMon.-102444814.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\Users\Guru\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Guru\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_MacMon.-1585996847.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Guru\RiderProjects\machine-monitor-service" t="IncludeFlat">
       <e p="MacMon" t="IncludeRecursive">
         <e p="App.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="Commands" t="Include">
           <e p="Account.cs" t="Include" />
           <e p="Application.cs" t="Include" />
@@ -34,8 +33,8 @@
         <e p="Models" t="Include">
           <e p="Credential.cs" t="Include" />
           <e p="Identity.cs" t="Include" />
-          <e p="JWT.cs" t="Include" />
           <e p="Job.cs" t="Include" />
+          <e p="JWT.cs" t="Include" />
           <e p="LocationCoordinate.cs" t="Include" />
           <e p="LogOut.cs" t="Include" />
           <e p="Process.cs" t="Include" />
@@ -45,6 +44,8 @@
         <e p="Network" t="Include">
           <e p="Monitor.cs" t="Include" />
         </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
@@ -59,9 +60,6 @@
             <e p="WebsocketSharpFactory.cs" t="Include" />
           </e>
         </e>
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="packages.config" t="Include" />
       </e>
       <e p="MacMon.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
