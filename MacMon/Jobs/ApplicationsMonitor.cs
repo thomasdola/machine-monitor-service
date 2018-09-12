@@ -26,7 +26,7 @@ namespace MacMon.Jobs
 
                 if (channel.canPush)
                 {
-                    channel.Push(Services.WebSocket.MacMonWebSocket.APPLICATION_STATUS_CHANGED, report);
+                    channel.Push(Services.WebSocket.MacMonWebSocket.ApplicationStatusChanged, report);
                 }
             }
         }

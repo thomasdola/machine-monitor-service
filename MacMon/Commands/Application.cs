@@ -3,24 +3,24 @@ using System.Diagnostics;
 
 namespace MacMon.Commands
 {
-    public class Application
+    public static class Application
     {
-        public static bool Start(string path)
+        public static void Start(string path)
         {
             var p = new Process();
 
             try
             {
                 p.StartInfo.FileName = path;
-                return p.Start();
+                p.Start();
             }
             catch (Exception)
             {
-                return false;
+                // ignored
             }
         }
 
-        public static bool Stop(string name)
+        public static void Stop(string name)
         {
 
             try
@@ -30,12 +30,10 @@ namespace MacMon.Commands
                 {
                     app.Kill();
                 }
-
-                return true;
             }
             catch (Exception)
             {
-                return false;
+                // ignored
             }
         }
     }

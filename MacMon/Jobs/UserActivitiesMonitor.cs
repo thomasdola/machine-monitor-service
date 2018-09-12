@@ -92,7 +92,7 @@ namespace MacMon.Jobs
         {
             if (_channel.canPush)
             {
-                _channel.Push(MacMonWebSocket.USER_ACTIVITY_CHANGED, data);
+                _channel.Push(MacMonWebSocket.UserActivityChanged, data);
             }
             else
             {

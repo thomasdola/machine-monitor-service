@@ -72,7 +72,7 @@ namespace MacMon.Jobs
         {
             if (_channel.canPush)
             {
-                _channel.Push(MacMonWebSocket.LOCATION_STATUS_CHANGED, data);
+                _channel.Push(MacMonWebSocket.LocationStatusChanged, data);
             }
             else
             {

@@ -2,7 +2,7 @@ using System.Diagnostics;
 
 namespace MacMon.Commands
 {
-    public class Power
+    public static class Power
     {
         public static void Off()
         {
