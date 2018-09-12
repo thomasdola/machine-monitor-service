@@ -68,8 +68,8 @@ namespace MacMon
             if (Connection.IsAvailable())
             {
                 var machineIdentity = _db.GetItem<Identity>(Store.IdentityKey);
-//                _channel.Leave();
-//                _socket.Disconnect();
+                _channel.Leave();
+                _socket.Disconnect();
                 _api.Logout(machineIdentity.Jwt);
             }
             _db.Dispose();
@@ -175,16 +175,6 @@ namespace MacMon
             }
 
             return currentJob;
-        }
-    }
-
-    [TestFixture]
-    public class AppTest
-    {
-        [Test]
-        public void StartTest()
-        {
-            Assert.That(true, Is.EqualTo(true));
         }
     }
 

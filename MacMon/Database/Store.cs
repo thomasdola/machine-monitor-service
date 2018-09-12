@@ -12,6 +12,8 @@ namespace MacMon.Database
         public const string IdentityKey = "identity";
         public const string JobKey = "job";
         public const string ProfileKey = "profile";
+        public const string UserActivitiesKey = "activities";
+        public const string MachinePositionsKey = "positions";
         
         private readonly DataStore _dataStore;
         private readonly string _databasePath;
@@ -27,13 +29,15 @@ namespace MacMon.Database
         public static DataStore InitStore()
         {
             var db = new Store();
-            db.InsertDefaultProfile();
-            db.InsertDefaultIdentity();
-            db.InsertDefaultJob();
+            db.InitProfile();
+            db.InitIdentity();
+            db.InitJobs();
+            db.InitEmptyMachinePositions();
+            db.InitEmptyUserActivities();
             return db._dataStore;
         }
         
-        private async void InsertDefaultProfile()
+        private async void InitProfile()
         {
             Console.WriteLine("try to get or insert profile");
             try
@@ -53,7 +57,7 @@ namespace MacMon.Database
             }
         }
 
-        private async void InsertDefaultIdentity()
+        private async void InitIdentity()
         {
             Console.WriteLine("try to get or insert identity");
             try
@@ -68,7 +72,7 @@ namespace MacMon.Database
             }
         }
         
-        private async void InsertDefaultJob()
+        private async void InitJobs()
         {
             Console.WriteLine("try to get or insert job");
             try
@@ -80,11 +84,40 @@ namespace MacMon.Database
                 Console.WriteLine("Inserting default job");
                 var job = new Job
                 {
-                    Network = true, UserActivity = true, 
                     Services = new List<Process>(), 
                     Applications = new List<Process>()
                 };
                 await _dataStore.InsertItemAsync(JobKey, job);
+            }
+        }
+
+        private async void InitEmptyMachinePositions()
+        {
+            Console.WriteLine("try to get or insert positions");
+            try
+            {
+                _dataStore.GetCollection<Position>(MachinePositionsKey);
+            }
+            catch (KeyNotFoundException)
+            {
+                Console.WriteLine("Inserting empty positions");
+                var positions = new List<Position>();
+                await _dataStore.InsertItemAsync(MachinePositionsKey, positions);
+            }
+        }
+
+        private async void InitEmptyUserActivities()
+        {
+            Console.WriteLine("try to get or insert user activities");
+            try
+            {
+                _dataStore.GetCollection<UserActivity>(UserActivitiesKey);
+            }
+            catch (KeyNotFoundException)
+            {
+                Console.WriteLine("Inserting empty  user activities");
+                var userActivities = new List<UserActivity>();
+                await _dataStore.InsertItemAsync(UserActivitiesKey, userActivities);
             }
         }
     }

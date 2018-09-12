@@ -4,6 +4,6 @@ namespace MacMon.Models
     {
         public string Action { set; get; }
         public string User { set; get; }
-        public long Date { set; get; }
+        public long Timestamp { set; get; }
     }
 }

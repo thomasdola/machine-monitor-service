@@ -20,12 +20,12 @@ namespace MacMon.Commands
             }
         }
 
-        public static bool Stop(string process)
+        public static bool Stop(string name)
         {
 
             try
             {
-                var appsByName = Process.GetProcessesByName(process);
+                var appsByName = Process.GetProcessesByName(name);
                 foreach (var app in appsByName)
                 {
                     app.Kill();

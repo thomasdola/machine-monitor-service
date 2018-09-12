@@ -1,4 +1,4 @@
-using System.Management;
+using System.Diagnostics;
 
 namespace MacMon.Commands
 {
@@ -6,12 +6,12 @@ namespace MacMon.Commands
     {
         public static void Off()
         {
-            System.Diagnostics.Process.Start("shutdown", "/s /t 0");
+            Process.Start("shutdown", "/s /t 0");
         }
 
         public static void Restart()
         {
-            System.Diagnostics.Process.Start("shutdown", "/r /t 0");
+            Process.Start("shutdown", "/r /t 0");
         }
     }
 }

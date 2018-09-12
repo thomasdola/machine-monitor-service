@@ -43,9 +43,9 @@ namespace MacMon.Commands
             Application.Start(path);
         }
 
-        public void StopApplicationM(string path)
+        public void StopApplicationM(string name)
         {
-            Application.Stop(path);
+            Application.Stop(name);
         }
 
         public void StartServiceM(string name)
@@ -68,9 +68,9 @@ namespace MacMon.Commands
             Power.Restart();
         }
 
-        private void ChangePasswordM(string password)
+        private void ChangePasswordM(string oldPassword, string newPassword)
         {
-            Account.Reset(Env.GetComputerName(), Env.GetUsername(), password);
+            Account.Reset(Env.GetUsername(), oldPassword, newPassword);
         }
     }
 }

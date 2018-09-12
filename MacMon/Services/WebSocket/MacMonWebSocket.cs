@@ -14,6 +14,7 @@ namespace MacMon.Services.WebSocket
         public static readonly string USER_ACTIVITY_CHANGED = "USER_ACTIVITY_CHANGED";
         public static readonly string APPLICATION_STATUS_CHANGED = "APPLICATION_STATUS_CHANGED";
         public static readonly string SERVICE_STATUS_CHANGED = "SERVICE_STATUS_CHANGED";
+        public static readonly string LOCATION_STATUS_CHANGED = "LOCATION_STATUS_CHANGED";
         
         private readonly Phoenix.Socket _socket;
         private const string Host = "localhost:4000";
