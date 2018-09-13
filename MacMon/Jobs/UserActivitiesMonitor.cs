@@ -119,7 +119,10 @@ namespace MacMon.Jobs
         private void SessionSwitched(object sender, SessionSwitchEventArgs e)
         {
             var timeStamp = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
-            var data = new Dictionary<string, object> {{"timestamp", timeStamp}, {"user", Env.GetUsername()}};
+            var data = new Dictionary<string, object>
+            {
+                {UserActivitiesMonitor.Timestamp, timeStamp}, {UserActivitiesMonitor.User, Env.GetUsername()}
+            };
             switch (e.Reason)
             {
                 case SessionSwitchReason.SessionLock:

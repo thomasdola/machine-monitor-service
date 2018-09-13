@@ -33,17 +33,17 @@ namespace MacMon.Commands
             Console.WriteLine("Start Command Listeners");
             _channel.On(ChangePassword, message =>
                 {
-                    var oldPassword = (string)message.payload["old_password"];
-                    var newPassword = (string)message.payload["new_password"];
+                    var oldPassword = (string)message.payload["oldPassword"];
+                    var newPassword = (string)message.payload["newPassword"];
                     try
                     {
                         ChangePasswordM(oldPassword, newPassword);
-                        var data = new Dictionary<string, object> {{"success", true}};
+                        var data = new Dictionary<string, object> {{"changed", true}};
                         _channel.Push(ChangePasswordDone, data);
                     }
                     catch (Exception)
                     {
-                        var data = new Dictionary<string, object> {{"success", false}};
+                        var data = new Dictionary<string, object> {{"changed", false}};
                         _channel.Push(ChangePasswordDone, data);
                     }
                     Console.WriteLine("About to change password -> {0}", message);

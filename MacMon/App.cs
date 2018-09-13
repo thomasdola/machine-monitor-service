@@ -4,13 +4,12 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using System.Security.Principal;
 using JsonFlatFileDataStore;
-using MacMon.Commands;
 using MacMon.Database;
+using MacMon.Jobs;
 using MacMon.Models;
 using MacMon.Network;
 using MacMon.Services.Http;
 using MacMon.Services.WebSocket;
-using NUnit.Framework;
 using Phoenix;
 
 namespace MacMon
@@ -25,7 +24,7 @@ namespace MacMon
         private Socket _socket;
         //need socket channel
         private Channel _channel;
-        private Jobs.Executor _jobExecutor;
+        private Executor _jobExecutor;
 
         public App()
         {
@@ -105,9 +104,9 @@ namespace MacMon
             _channel = _socket.MakeChannel($"MACHINE:{identity.Uuid}");
             JoinChannel(_channel, identity);
 
-            Executor.Init(_channel).Start();
+            Commands.Executor.Init(_channel).Start();
 
-            _jobExecutor = Jobs.Executor.Init(_channel, _db);
+            _jobExecutor = Executor.Init(_channel, _db);
             _jobExecutor.Start(job);
         }
 

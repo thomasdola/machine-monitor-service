@@ -28,8 +28,8 @@ namespace MacMon.Jobs
                 
             var report = new Dictionary<string, object>
             {
-                {"RUNNING", running},
-                {"service", process.Name},
+                {"status", running},
+                {"name", process.Name},
                 {"path", process.Path}
             };
 

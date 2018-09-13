@@ -28,7 +28,7 @@ namespace MacMon.Jobs
 
         public void Start(Job job)
         {
-            Console.WriteLine("job | apps -> {} | services -> {}", job.Applications.Count, job.Services.Count);
+            Console.WriteLine("job | apps -> {0} | services -> {1}", job.Applications.Count, job.Services.Count);
          
             _userActivitiesMonitor = new UserActivitiesMonitor(_store, _channel);
             _userActivitiesMonitor.OnStart();
@@ -42,7 +42,7 @@ namespace MacMon.Jobs
             {
                 var trigger = TriggerBuilder.Create().WithIdentity("Applications Trigger", "Triggers").StartNow()
                     .WithSimpleSchedule(s => s
-                        .WithIntervalInSeconds(5)
+                        .WithIntervalInSeconds(30)
                         .RepeatForever())
                     .Build();
 
@@ -58,7 +58,7 @@ namespace MacMon.Jobs
             {
                 var trigger = TriggerBuilder.Create().WithIdentity("Services Trigger", "Triggers").StartNow()
                     .WithSimpleSchedule(s => s
-                        .WithIntervalInSeconds(5)
+                        .WithIntervalInSeconds(30)
                         .RepeatForever())
                     .Build();
 
@@ -75,7 +75,7 @@ namespace MacMon.Jobs
         {
             var trigger = TriggerBuilder.Create().WithIdentity("Network Trigger", "Triggers").StartNow()
                 .WithSimpleSchedule(s => s
-                    .WithIntervalInSeconds(5)
+                    .WithIntervalInSeconds(60)
                     .RepeatForever())
                 .Build();
 
