@@ -6,11 +6,14 @@ namespace MacMon
     {
         internal static void Configure()
         {
+
+            var server = App.DefaultServer;
+        
             HostFactory.Run(configure =>  
             {  
                 configure.Service < App > (service =>  
                 {  
-                    service.ConstructUsing(s => new App());  
+                    service.ConstructUsing(s => new App(server));  
                     service.WhenStarted(s => s.Start());  
                     service.WhenStopped(s => s.Stop());  
                 });  
@@ -24,8 +27,8 @@ namespace MacMon
                 configure.SetDescription("Service to monitor this machine.");
 
                 configure.StartAutomatically();
-
-                configure.Disabled();
+                
+                configure.AddCommandLineDefinition("server", v => server = v);
             });  
         }
     }

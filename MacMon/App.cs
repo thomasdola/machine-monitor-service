@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.NetworkInformation;
+using System.Security.Policy;
 using System.Security.Principal;
 using JsonFlatFileDataStore;
 using MacMon.Database;
@@ -16,6 +17,7 @@ namespace MacMon
 {
     public class App
     {
+        public const string DefaultServer = "http://localhost:4000";
         //need db
         private readonly DataStore _db;
         //need http client
@@ -26,11 +28,14 @@ namespace MacMon
         private Channel _channel;
         private Executor _jobExecutor;
 
-        public App()
+        private readonly string _url;
+
+        public App(string server = DefaultServer)
         {
             Console.WriteLine("app init");
+            _url = server;
             _db = Store.InitStore();
-            _api = new MacMonApi();
+            _api = new MacMonApi(server);
         }
 
         public void Start()
@@ -98,7 +103,7 @@ namespace MacMon
                 
             }
             
-            _socket = MacMonWebSocket.InitSocket(identity.Jwt);
+            _socket = MacMonWebSocket.InitSocket(identity.Jwt, _url);
             InitSocketMonitor(_socket);
             
             _channel = _socket.MakeChannel($"MACHINE:{identity.Uuid}");

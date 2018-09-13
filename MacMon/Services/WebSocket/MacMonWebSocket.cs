@@ -17,10 +17,11 @@ namespace MacMon.Services.WebSocket
         public const string LocationStatusChanged = "LOCATION_STATUS_CHANGED";
 
         private readonly Socket _socket;
-        private const string Host = "localhost:4000";
+        private readonly string _host;
 
-        private MacMonWebSocket(JWT jwt)
+        public MacMonWebSocket(string server, JWT jwt)
         {
+            _host = server;
             var socketFactory = new WebsocketSharpFactory();
             _socket = new Socket(socketFactory);
             try
@@ -33,16 +34,16 @@ namespace MacMon.Services.WebSocket
             }
         }
 
-        public static Socket InitSocket(JWT jwt)
+        public static Socket InitSocket(JWT jwt, string server)
         {
-            var macMonWebSocket = new MacMonWebSocket(jwt);
+            var macMonWebSocket = new MacMonWebSocket(server, jwt);
             return macMonWebSocket._socket;
         }
 
         private void Connect(JWT jwt)
         {
             var parameters = new Dictionary<string, string> {{"token", jwt.Token}};
-            _socket.Connect($"ws://{Host}/socket", parameters);
+            _socket.Connect($"ws://{_host}/socket", parameters);
         }
     }
 }

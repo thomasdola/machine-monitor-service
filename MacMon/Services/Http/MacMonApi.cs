@@ -14,11 +14,16 @@ namespace MacMon.Services.Http
     
     public class MacMonApi : IMacMonApi
     {
-        private const string BaseUrl = "http://localhost:4000/api/windows";
+        private readonly string _baseUrl;
+
+        public MacMonApi(string server)
+        {
+            _baseUrl = $"{server}/api/windows";
+        }
 
         public T Execute<T>(RestRequest request) where T : new()
         {
-            var client = new RestClient {BaseUrl = new Uri(BaseUrl)};
+            var client = new RestClient {BaseUrl = new Uri(_baseUrl)};
             var response = client.Execute<T>(request);
 
             if (response.ErrorException == null) return response.Data;
