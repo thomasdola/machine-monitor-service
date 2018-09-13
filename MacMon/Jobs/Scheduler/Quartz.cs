@@ -14,10 +14,10 @@ namespace MacMon.Jobs.Scheduler
             };
             var factory = new StdSchedulerFactory(props);
             
-            var sched = await factory.GetScheduler();
-            await sched.Start();
+            var scheduler = await factory.GetScheduler();
+            await scheduler.Start();
             
-            await sched.ScheduleJob(job, trigger);
+            await scheduler.ScheduleJob(job, trigger);
         }
     }
 }

@@ -25,3 +25,30 @@ C:\Users\Guru\Documents\Visual Studio 2015\Projects\macmon\MacMon\obj\Debug\MacM
 C:\Users\Guru\Documents\Visual Studio 2015\Projects\macmon\MacMon\bin\Debug\Quartz.dll
 C:\Users\Guru\Documents\Visual Studio 2015\Projects\macmon\MacMon\bin\Debug\Quartz.pdb
 C:\Users\Guru\Documents\Visual Studio 2015\Projects\macmon\MacMon\bin\Debug\Quartz.xml
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\MacMon.exe
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\MacMon.pdb
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\Castle.Core.dll
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\JsonFlatFileDataStore.dll
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\Moq.dll
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\nunit.framework.dll
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\Quartz.dll
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\RestSharp.dll
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\System.ValueTuple.dll
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\Topshelf.dll
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\Castle.Core.xml
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\JsonFlatFileDataStore.xml
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\Moq.pdb
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\Moq.xml
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\nunit.framework.pdb
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\nunit.framework.xml
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\Quartz.pdb
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\Quartz.xml
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\System.ValueTuple.xml
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\bin\Debug\Topshelf.xml
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\obj\Debug\MacMon.csprojResolveAssemblyReference.cache
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\obj\Debug\MacMon.exe
+C:\Users\Guru\RiderProjects\machine-monitor-service\MacMon\obj\Debug\MacMon.pdb

@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
 using JsonFlatFileDataStore;
+using MacMon.Database;
 using MacMon.Models;
 using MacMon.Network;
 using MacMon.Services.WebSocket;
@@ -21,6 +22,10 @@ namespace MacMon.Jobs
         public const string Lock = "LOCK";
         public const string Unlock = "UNLOCK";
         public const string POWER_OFF = "POWER_OFF";
+
+        public const string Action = "action";
+        public const string Timestamp = "timestamp";
+        public const string User = "user";
         
         private readonly DataStore _store;
         private readonly Channel _channel;
@@ -33,19 +38,16 @@ namespace MacMon.Jobs
 
         public void OnStart()
         {
-            EventLog.WriteEntry("SimpleService", "Starting SimpleService");
             new Thread(RunMessagePump).Start();
         }
 
         public void OnStop()
         {
-            EventLog.WriteEntry("SimpleService.MessagePump", "Starting SimpleService Message Pump");
-            Application.Run(new HiddenForm(_store, _channel));
+            Application.Exit();
         }
         
         void RunMessagePump()
         {
-            EventLog.WriteEntry("SimpleService.MessagePump", "Starting SimpleService Message Pump");
             Application.Run(new HiddenForm(_store, _channel));
         }
     }
@@ -68,9 +70,9 @@ namespace MacMon.Jobs
             {
                 var activity = new UserActivity
                 {
-                    Action = (string)data["action"],
-                    User = (string) data["user"],
-                    Date = (long) data["date"]
+                    Action = (string)data[UserActivitiesMonitor.Action],
+                    User = (string) data[UserActivitiesMonitor.User],
+                    Timestamp = (long) data[UserActivitiesMonitor.Timestamp]
                 };
                 Locally(activity);
             }
@@ -80,16 +82,27 @@ namespace MacMon.Jobs
             }
         }
 
-        private void Locally(UserActivity activity)
+        private async void Locally(UserActivity activity)
         {
-            _store.Reload();
+            var activities = _store.GetCollection<UserActivity>(Store.UserActivitiesKey);
+            await activities.InsertOneAsync(activity);
         }
 
         private void Server(Dictionary<string, object> data)
         {
             if (_channel.canPush)
             {
-                _channel.Push(MacMonWebSocket.USER_ACTIVITY_CHANGED, data);
+                _channel.Push(MacMonWebSocket.UserActivityChanged, data);
+            }
+            else
+            {
+                var activity = new UserActivity
+                {
+                    Action = (string)data[UserActivitiesMonitor.Action],
+                    User = (string) data[UserActivitiesMonitor.User],
+                    Timestamp = (long) data[UserActivitiesMonitor.Timestamp]
+                };
+                Locally(activity);
             }
         }
 
@@ -105,20 +118,21 @@ namespace MacMon.Jobs
 
         private void SessionSwitched(object sender, SessionSwitchEventArgs e)
         {
-            var data = new Dictionary<string, object> {{"date", ""}, {"user", Env.GetUsername()}};
+            var timeStamp = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
+            var data = new Dictionary<string, object> {{"timestamp", timeStamp}, {"user", Env.GetUsername()}};
             switch (e.Reason)
             {
                 case SessionSwitchReason.SessionLock:
-                    data.Add("action", UserActivitiesMonitor.Lock);
+                    data.Add(UserActivitiesMonitor.Action, UserActivitiesMonitor.Lock);
                     break;
                 case SessionSwitchReason.SessionLogoff:
-                    data.Add("action", UserActivitiesMonitor.LogOut);
+                    data.Add(UserActivitiesMonitor.Action, UserActivitiesMonitor.LogOut);
                     break;
                 case SessionSwitchReason.SessionLogon:
-                    data.Add("action", UserActivitiesMonitor.LogIn);
+                    data.Add(UserActivitiesMonitor.Action, UserActivitiesMonitor.LogIn);
                     break;
                 case SessionSwitchReason.SessionUnlock:
-                    data.Add("action", UserActivitiesMonitor.Unlock);
+                    data.Add(UserActivitiesMonitor.Action, UserActivitiesMonitor.Unlock);
                     break;
                 default:
                     EventLog.WriteEntry("User Activity", e.Reason.ToString());
@@ -151,6 +165,7 @@ namespace MacMon.Jobs
             FormBorderStyle = FormBorderStyle.None;
             Name = "HiddenForm";
             Text = "HiddenForm";
+            ShowInTaskbar = false;
             WindowState = FormWindowState.Minimized;
             Load += HiddenForm_Load;
             FormClosing += HiddenForm_FormClosing;

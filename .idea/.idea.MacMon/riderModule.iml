@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
+<<<<<<< HEAD
     <content url="file:///app" />
     <content url="file:///eb6785ce" />
     <content url="file://$USER_HOME$/.Rider2018.2/system/extResources" />
+=======
+>>>>>>> e5ce25244b184a938b4a7c54bf6ad5c58fb21f6b
     <content url="file://$MODULE_DIR$/../.." />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

@@ -36,8 +36,8 @@
           <e p="Identity.cs" t="Include" />
           <e p="JWT.cs" t="Include" />
           <e p="Job.cs" t="Include" />
-          <e p="LocationCoordinate.cs" t="Include" />
           <e p="LogOut.cs" t="Include" />
+          <e p="Position.cs" t="Include" />
           <e p="Process.cs" t="Include" />
           <e p="Profile.cs" t="Include" />
           <e p="UserActivity.cs" t="Include" />

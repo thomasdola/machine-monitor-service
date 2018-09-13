@@ -3,31 +3,29 @@ using System.ServiceProcess;
 
 namespace MacMon.Commands
 {
-    public class Service
+    public static class Service
     {
-        public static bool Start(string name)
+        public static void Start(string name)
         {
-            if (!IsInstalled(name)) return false;
-            
+            if (!IsInstalled(name)) return;
+
             var sc = GetService(name);
             if (!sc.Status.Equals(ServiceControllerStatus.Stopped) &&
-                !sc.Status.Equals(ServiceControllerStatus.StopPending)) return false;
+                !sc.Status.Equals(ServiceControllerStatus.StopPending))
+                return;
             sc.Start();
             sc.WaitForStatus(ServiceControllerStatus.Running);
-            return true;
-
         }
 
-        public static bool Stop(string name)
+        public static void Stop(string name)
         {
-            if (!IsInstalled(name)) return false;
+            if (!IsInstalled(name)) return;
             var sc = GetService(name);
             if (sc.Status.Equals(ServiceControllerStatus.Stopped) &&
-                sc.Status.Equals(ServiceControllerStatus.StopPending)) return false;
+                sc.Status.Equals(ServiceControllerStatus.StopPending))
+                return;
             sc.Stop(); 
             sc.WaitForStatus(ServiceControllerStatus.Stopped);
-            return true;
-
         }
 
         private static bool IsInstalled(string name)

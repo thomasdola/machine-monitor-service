@@ -35,7 +35,7 @@ namespace MacMon.Jobs
 
             if (channel.canPush)
             {
-                channel.Push(Services.WebSocket.MacMonWebSocket.SERVICE_STATUS_CHANGED, report);
+                channel.Push(Services.WebSocket.MacMonWebSocket.ServiceStatusChanged, report);
             }
         }
 
