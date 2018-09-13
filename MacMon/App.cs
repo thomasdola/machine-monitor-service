@@ -17,7 +17,7 @@ namespace MacMon
 {
     public class App
     {
-        public const string DefaultServer = "http://localhost:4000";
+        public const string DefaultServer = "localhost:4000";
         //need db
         private readonly DataStore _db;
         //need http client

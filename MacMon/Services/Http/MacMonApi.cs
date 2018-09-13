@@ -18,7 +18,8 @@ namespace MacMon.Services.Http
 
         public MacMonApi(string server)
         {
-            _baseUrl = $"{server}/api/windows";
+            _baseUrl = $"http://{server}/api/windows";
+            Console.WriteLine("url -> {0}", _baseUrl);
         }
 
         public T Execute<T>(RestRequest request) where T : new()
